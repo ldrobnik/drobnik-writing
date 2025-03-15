@@ -78,14 +78,13 @@ export const Text = (props) => {
     props.setPageReload(true);
   };
 
-  //Checks if the id in the current url matches any text; if not, returns 'nocturine'
+  //Checks if the id in the current url matches any text; if not, returns 'cetacean'
   const checkTextID = (name) => {
     for (let i = 0; i < TEXT_NAMES.length; i++) {
       if (TEXT_NAMES[i] === name) return name;
     }
 
-    //if unknown id, display 'nocturine'
-    return "nocturine";
+    return "cetacean";
   };
 
   //the name of the text to be displayed

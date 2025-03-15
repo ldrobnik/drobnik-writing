@@ -17,8 +17,8 @@ import {
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 //file names for book covers
-const nocturineCover = "nocturineCover.jpg";
-const nocturineCoverColor = "nocturineCoverColor.jpg";
+// const nocturineCover = "nocturineCover.jpg";
+// const nocturineCoverColor = "nocturineCoverColor.jpg";
 const nocCunCover = "nocCunCover.jpg";
 const vostokCover = "vostokCover.jpg";
 const vostokCoverColor = "vostokCoverColor.jpg";
@@ -28,9 +28,9 @@ const riverineCoverColor = "riverineCoverColor.jpg";
 
 //Frequently used URLs
 
-export const NOCTURINE_URL = "http://fathombooks.org/html/drobnik.html"; //Nocturine pre-order
-export const NOCTURINE_LOCAL_URL = "https://drobnik.co/nocturine";
-export const FATHOM_BOOKS_URL = "http://fathombooks.org/"; //Fathom Books website
+// export const NOCTURINE_URL = "http://fathombooks.org/html/drobnik.html"; //Nocturine pre-order
+// export const NOCTURINE_LOCAL_URL = "https://drobnik.co/nocturine";
+// export const FATHOM_BOOKS_URL = "http://fathombooks.org/"; //Fathom Books website
 export const VOSTOK_URL = "https://mybook.to/vostok-paper"; // buy Vostok
 export const VOSTOK_EBOOK_URL = "https://mybook.to/vostok-digital"; // buy Vostok ebook
 export const VOSTOK_LOCAL_URL = "https://drobnik.co/vostok";
@@ -50,8 +50,6 @@ export const BLYSKI_URL = "https://blyski.org"; // błyski literary magazine
 
 //Names of available texts
 export const TEXT_NAMES = [
-  "vostok",
-  "nocturine",
   "cetacean",
   "cellulose",
   "moths",
@@ -65,66 +63,62 @@ export const TEXT_NAMES = [
 //Content of pieces displayed in the Text component
 export const TEXTS = {
   en: {
-    nocturine: {
-      title: "Nocturine",
-      subtitle: "excerpt from a short story collection",
-      credits:
-        "Written & translated from the Polish by Łukasz Drobnik. Edits by Emily Nemchick & Joseph Spece.",
-      description: (
-        <p>
-          <em>Nocturine</em> is a collection of interlinked stories forthcoming
-          in May 2025 from{" "}
-          <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
-            Fathom Books
-          </a>
-          . It was originally written{" "}
-          <a
-            href="http://wforma.eu/12,nocturine.-cunninghamella.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            in Polish
-          </a>{" "}
-          and published in one volume with a novella titled{" "}
-          <em>Cunninghamella</em> (Forma 2011). Excerpts from <em>Nocturine</em>{" "}
-          have been featured in a number of journals — both in Polish (
-          <a
-            href="https://www.dwutygodnik.com/artykul/2252-nocturine-fragment-powiesci.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <em>Dwutygodnik</em>
-          </a>
-          ,{" "}
-          <a
-            href="http://nagrodaliterackagdynia.pl/sites/default/files/upload/dodatek-nr-9.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <em>Dodatek Literacki</em>
-          </a>
-          ) and in English (
-          <a
-            href="http://fathombooks.org/html/issueone.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <em>Sharkpack Annual</em>
-          </a>
-          ,{" "}
-          <a
-            href="https://thewritelaunch.com/2018/01/heart-mighty-power/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <em>The Write Launch</em>
-          </a>
-          ).
-        </p>
-      ),
-      filename: "nocturine-en",
-      theme: "nocturine",
-    },
+    // nocturine: {
+    //   title: "Nocturine",
+    //   subtitle: "excerpt from a short story collection",
+    //   credits:
+    //     "Written & translated from the Polish by Łukasz Drobnik. Edits by Emily Nemchick & Joseph Spece.",
+    //   description: (
+    //     <p>
+    //       <em>Nocturine</em> is a collection of interlinked stories originally
+    //       published{" "}
+    //       <a
+    //         href="http://wforma.eu/12,nocturine.-cunninghamella.html"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         in Polish
+    //       </a>{" "}
+    //       in one volume with a novella titled <em>Cunninghamella</em> (Forma
+    //       2011). Excerpts from <em>Nocturine</em> have been featured in a number
+    //       of journals — both in Polish (
+    //       <a
+    //         href="https://www.dwutygodnik.com/artykul/2252-nocturine-fragment-powiesci.html"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         <em>Dwutygodnik</em>
+    //       </a>
+    //       ,{" "}
+    //       <a
+    //         href="http://nagrodaliterackagdynia.pl/sites/default/files/upload/dodatek-nr-9.pdf"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         <em>Dodatek Literacki</em>
+    //       </a>
+    //       ) and in English (
+    //       <a
+    //         href="http://fathombooks.org/html/issueone.html"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         <em>Sharkpack Annual</em>
+    //       </a>
+    //       ,{" "}
+    //       <a
+    //         href="https://thewritelaunch.com/2018/01/heart-mighty-power/"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         <em>The Write Launch</em>
+    //       </a>
+    //       ).
+    //     </p>
+    //   ),
+    //   filename: "nocturine-en",
+    //   theme: "nocturine",
+    // },
 
     cetacean: {
       title: "Cetacean",
@@ -282,55 +276,55 @@ export const TEXTS = {
       theme: "spores",
     },
 
-    vostok: {
-      title: "Vostok",
-      subtitle: "novel fragment",
-      credits:
-        "Written & translated from the Polish by Łukasz Drobnik. Edits by Emily Nemchick and Lis Goryniuk-Ratajczak.",
-      description: (
-        <p>
-          <em>Vostok</em> was published in 2021 by{" "}
-          <a href={VOSTOK_URL} target="_blank" rel="noopener noreferrer">
-            <em>Vraeyda Literary</em>
-          </a>
-          . Its fragments were featured in{" "}
-          <a
-            href="https://www.magcloud.com/browse/issue/2070527?__r=3020311"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <em>MacroMicroCosm</em>
-          </a>{" "}
-          and{" "}
-          <a
-            href="https://www.vraeydamedia.ca/macromicrocosm-online/2021/10/31/vostok-an-excerpt"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <em>MacroMicroCosm Online</em>
-          </a>{" "}
-          as well as in Polish in{" "}
-          <a
-            href="http://lampa.art.pl/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <em>Lampa</em>
-          </a>{" "}
-          Issue&nbsp;3/2012 and on{" "}
-          <a
-            href="http://wydawnictwoj.pl/uncategorized/pismo/proza/lukasz-drobnik-vostok-fragment/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <em>wydawnictwo&nbsp;j</em>
-          </a>{" "}
-          website.
-        </p>
-      ),
-      filename: "vostok-en",
-      theme: "vostok",
-    },
+    // vostok: {
+    //   title: "Vostok",
+    //   subtitle: "novel fragment",
+    //   credits:
+    //     "Written & translated from the Polish by Łukasz Drobnik. Edits by Emily Nemchick and Lis Goryniuk-Ratajczak.",
+    //   description: (
+    //     <p>
+    //       <em>Vostok</em> was published in 2021 by{" "}
+    //       <a href={VOSTOK_URL} target="_blank" rel="noopener noreferrer">
+    //         <em>Vraeyda Literary</em>
+    //       </a>
+    //       . Its fragments were featured in{" "}
+    //       <a
+    //         href="https://www.magcloud.com/browse/issue/2070527?__r=3020311"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         <em>MacroMicroCosm</em>
+    //       </a>{" "}
+    //       and{" "}
+    //       <a
+    //         href="https://www.vraeydamedia.ca/macromicrocosm-online/2021/10/31/vostok-an-excerpt"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         <em>MacroMicroCosm Online</em>
+    //       </a>{" "}
+    //       as well as in Polish in{" "}
+    //       <a
+    //         href="http://lampa.art.pl/"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         <em>Lampa</em>
+    //       </a>{" "}
+    //       Issue&nbsp;3/2012 and on{" "}
+    //       <a
+    //         href="http://wydawnictwoj.pl/uncategorized/pismo/proza/lukasz-drobnik-vostok-fragment/"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         <em>wydawnictwo&nbsp;j</em>
+    //       </a>{" "}
+    //       website.
+    //     </p>
+    //   ),
+    //   filename: "vostok-en",
+    //   theme: "vostok",
+    // },
 
     devonian: {
       title: "Devonian",
@@ -427,66 +421,62 @@ export const TEXTS = {
     },
   },
   pl: {
-    nocturine: {
-      title: "Nocturine",
-      subtitle: "fragment zbioru opowiadań",
-      credits:
-        "Tekst: Łukasz Drobnik. Redakcja: Paweł Nowakowski, Adrian Sikora.",
-      description: (
-        <p>
-          „Nocturine” to zbiór powiązanych fabularnie opowiadań, który ma się
-          ukazać w&nbsp;maju 2025&nbsp;r. nakładem wydawnictwa{" "}
-          <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
-            Fathom Books
-          </a>
-          . Książka pierwotnie ukazała się{" "}
-          <a
-            href="http://wforma.eu/12,nocturine.-cunninghamella.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            po polsku
-          </a>{" "}
-          w&nbsp;jednym tomie z&nbsp;minipowieścią „Cunninghamella” (Forma
-          2011). Fragmenty „Nocturine” opublikowano w&nbsp;kilku czasopismach —
-          zarówno po polsku (
-          <a
-            href="https://www.dwutygodnik.com/artykul/2252-nocturine-fragment-powiesci.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <em>Dwutygodnik</em>
-          </a>
-          ,{" "}
-          <a
-            href="http://nagrodaliterackagdynia.pl/sites/default/files/upload/dodatek-nr-9.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <em>Dodatek Literacki</em>
-          </a>
-          ), jak i&nbsp;po angielsku (
-          <a
-            href="http://fathombooks.org/html/issueone.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <em>Sharkpack Annual</em>
-          </a>
-          ,{" "}
-          <a
-            href="https://thewritelaunch.com/2018/01/heart-mighty-power/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <em>The Write Launch</em>
-          </a>
-          ).
-        </p>
-      ),
-      filename: "nocturine-pl",
-      theme: "nocturine",
-    },
+    // nocturine: {
+    //   title: "Nocturine",
+    //   subtitle: "fragment zbioru opowiadań",
+    //   credits:
+    //     "Tekst: Łukasz Drobnik. Redakcja: Paweł Nowakowski, Adrian Sikora.",
+    //   description: (
+    //     <p>
+    //       „Nocturine” to zbiór powiązanych fabularnie opowiadań, który
+    //       pierwotnie ukazał się{" "}
+    //       <a
+    //         href="http://wforma.eu/12,nocturine.-cunninghamella.html"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         po polsku
+    //       </a>{" "}
+    //       w&nbsp;jednym tomie z&nbsp;minipowieścią „Cunninghamella” (Forma
+    //       2011). Fragmenty „Nocturine” opublikowano w&nbsp;kilku czasopismach —
+    //       zarówno po polsku (
+    //       <a
+    //         href="https://www.dwutygodnik.com/artykul/2252-nocturine-fragment-powiesci.html"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         <em>Dwutygodnik</em>
+    //       </a>
+    //       ,{" "}
+    //       <a
+    //         href="http://nagrodaliterackagdynia.pl/sites/default/files/upload/dodatek-nr-9.pdf"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         <em>Dodatek Literacki</em>
+    //       </a>
+    //       ), jak i&nbsp;po angielsku (
+    //       <a
+    //         href="http://fathombooks.org/html/issueone.html"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         <em>Sharkpack Annual</em>
+    //       </a>
+    //       ,{" "}
+    //       <a
+    //         href="https://thewritelaunch.com/2018/01/heart-mighty-power/"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         <em>The Write Launch</em>
+    //       </a>
+    //       ).
+    //     </p>
+    //   ),
+    //   filename: "nocturine-pl",
+    //   theme: "nocturine",
+    // },
 
     cetacean: {
       title: "Waleń",
@@ -639,54 +629,54 @@ export const TEXTS = {
       theme: "spores",
     },
 
-    vostok: {
-      title: "Vostok",
-      subtitle: "fragment powieści",
-      credits: "Tekst: Łukasz Drobnik.",
-      description: (
-        <p>
-          „Vostok” ukazał się w&nbsp;2021&nbsp;roku nakładem wydawnictwa{" "}
-          <a href={VOSTOK_URL} target="_blank" rel="noopener noreferrer">
-            <em>Vraeyda Literary</em>
-          </a>
-          . Fragmenty książki można było przeczytać po polsku w&nbsp;
-          <a
-            href="http://lampa.art.pl/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <em>Lampie</em>
-          </a>{" "}
-          (numer&nbsp;3/2012) i&nbsp;na stronie{" "}
-          <a
-            href="http://wydawnictwoj.pl/uncategorized/pismo/proza/lukasz-drobnik-vostok-fragment/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <em>wydawnictwa&nbsp;j</em>
-          </a>
-          , a&nbsp;po angielsku w&nbsp;piśmie{" "}
-          <a
-            href="https://www.magcloud.com/browse/issue/2070527?__r=3020311"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <em>MacroMicroCosm</em>
-          </a>{" "}
-          oraz{" "}
-          <a
-            href="https://www.vraeydamedia.ca/macromicrocosm-online/2021/10/31/vostok-an-excerpt"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <em>jego wersji online</em>
-          </a>
-          .
-        </p>
-      ),
-      filename: "vostok-pl",
-      theme: "vostok",
-    },
+    // vostok: {
+    //   title: "Vostok",
+    //   subtitle: "fragment powieści",
+    //   credits: "Tekst: Łukasz Drobnik.",
+    //   description: (
+    //     <p>
+    //       „Vostok” ukazał się w&nbsp;2021&nbsp;roku nakładem wydawnictwa{" "}
+    //       <a href={VOSTOK_URL} target="_blank" rel="noopener noreferrer">
+    //         <em>Vraeyda Literary</em>
+    //       </a>
+    //       . Fragmenty książki można było przeczytać po polsku w&nbsp;
+    //       <a
+    //         href="http://lampa.art.pl/"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         <em>Lampie</em>
+    //       </a>{" "}
+    //       (numer&nbsp;3/2012) i&nbsp;na stronie{" "}
+    //       <a
+    //         href="http://wydawnictwoj.pl/uncategorized/pismo/proza/lukasz-drobnik-vostok-fragment/"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         <em>wydawnictwa&nbsp;j</em>
+    //       </a>
+    //       , a&nbsp;po angielsku w&nbsp;piśmie{" "}
+    //       <a
+    //         href="https://www.magcloud.com/browse/issue/2070527?__r=3020311"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         <em>MacroMicroCosm</em>
+    //       </a>{" "}
+    //       oraz{" "}
+    //       <a
+    //         href="https://www.vraeydamedia.ca/macromicrocosm-online/2021/10/31/vostok-an-excerpt"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //       >
+    //         <em>jego wersji online</em>
+    //       </a>
+    //       .
+    //     </p>
+    //   ),
+    //   filename: "vostok-pl",
+    //   theme: "vostok",
+    // },
 
     devonian: {
       title: "Dewon",
@@ -784,29 +774,29 @@ export const TEXTS = {
 //List of publications used in the Pubs section
 export const PUBLICATIONS = {
   books: [
-    {
-      title: "Nocturine",
-      year: "",
-      url: NOCTURINE_URL,
-      cover: nocturineCover,
-      altText: {
-        en: "Nocturine cover",
-        pl: "Okładka Nocturine",
-      },
-      descriptionPl: (
-        <>
-          Zbiór powiązanych fabularnie opowiadań, który ukaże się w 2025 r.
-          nakładem wydawnictwa Fathom Books
-        </>
-      ),
-      descriptionEn: (
-        <>
-          Collection of interlinked stories forthcoming in 2025 from Fathom
-          Books
-        </>
-      ),
-      language: "en",
-    },
+    // {
+    //   title: "Nocturine",
+    //   year: "",
+    //   url: NOCTURINE_URL,
+    //   cover: nocturineCover,
+    //   altText: {
+    //     en: "Nocturine cover",
+    //     pl: "Okładka Nocturine",
+    //   },
+    //   descriptionPl: (
+    //     <>
+    //       Zbiór powiązanych fabularnie opowiadań, który ukaże się w 2025 r.
+    //       nakładem wydawnictwa Fathom Books
+    //     </>
+    //   ),
+    //   descriptionEn: (
+    //     <>
+    //       Collection of interlinked stories forthcoming in 2025 from Fathom
+    //       Books
+    //     </>
+    //   ),
+    //   language: "en",
+    // },
     {
       title: "Riverine",
       year: "2023",
@@ -1373,226 +1363,226 @@ const ORDER_BUTTON = {
   },
 };
 
-//Excerpt button text
-export const EXCERPT_BUTTON = {
-  en: "Read an excerpt",
-  pl: "Przeczytaj fragment",
-};
+// //Excerpt button text
+// export const EXCERPT_BUTTON = {
+//   en: "Read an excerpt",
+//   pl: "Przeczytaj fragment",
+// };
 
 //List of book IDs
-export const BOOK_LIST = ["nocturine", "vostok", "riverine"];
+export const BOOK_LIST = ["vostok", "riverine"];
 
 //Content about books
 export const BOOKS = [
-  {
-    id: "nocturine",
-    excerptId: "nocturine",
-    theme: "nocturine",
-    title: {
-      en: "Nocturine",
-      pl: "Nocturine",
-    },
-    displayOnMain: true,
-    cover: nocturineCover,
-    colorCover: nocturineCoverColor,
-    url: NOCTURINE_URL,
-    slogan: {
-      en: (
-        <div>
-          Fiction collection forthcoming in May 2025 from{" "}
-          <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
-            <strong>FATHOM BOOKS</strong>
-          </a>
-        </div>
-      ),
-      pl: (
-        <div>
-          Zbiór prozy, który ukażę się w&nbsp;maju 2025&nbsp;r. nakładem
-          wydawcnitwa{" "}
-          <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
-            <strong>FATHOM BOOKS</strong>
-          </a>
-        </div>
-      ),
-    },
-    orderButton: {
-      en: null,
-      pl: null,
-    },
-    shopList: null,
-    body: {
-      en: (
-        <div>
-          <p>
-            The end of the world starts like an ad campaign. When black cubes
-            appear above the city of Poznań, some think it’s just another mobile
-            network operator entering the market. These include Mietek, an
-            unemployed man in his twenties, suddenly abandoned by his boyfriend.
-            Soon his best friend also disappears while the black cubes in the
-            sky start to multiply, taking up more and more of the urban space.
-          </p>
-          <p>
-            <em>NOCTURINE</em> is a collection of interlinked stories that takes
-            you on a genre-bending journey from contemporary Poznań devoured by
-            an 8-bit amoeba to a house comprised of countless floors, to a
-            homestead haunted by dummies, to the inside of a human body. Each of
-            six pieces is told by a different narrator in a frantic yet
-            melancholic style.
-          </p>
-        </div>
-      ),
-      pl: (
-        <div>
-          <p>
-            Koniec świata zaczyna się jak kampania reklamowa. Gdy nad Poznaniem
-            zawisają czarne sześciany, niektórzy sądzą, że to po prostu kolejny
-            operator sieci komórkowej wchodzi na rynek. Do tej grupy należy
-            Mietek, bezrobotny dwudziestoparolatek, którego nagle opuszcza
-            chłopak. Niedługa jego najlepsza przyjaciółka także znika, podczas
-            gdy czarne sześciany na niebie zaczynają się mnożyć, zabierając
-            coraz więcej miejskiej przestrzeni.
-          </p>
-          <p>
-            <em>NOCTURINE</em> to zbiór powiązanych fabularnie opowiadań, który
-            zabiera czytelnika na gatunkowo niepokorną podróż z&nbsp;Poznania
-            pożeranego przez ośmiobitową amebę przez dom złożony
-            z&nbsp;niezliczonych pięter i&nbsp;nawiedzane przez manekiny
-            domostwo aż po wnętrze ludzkiego ciała. Każdy z&nbsp;sześciu tekstów
-            ma innego narratora, który snuje opowieść w&nbsp;gorączkowym, lecz
-            melancholijnym stylu.
-          </p>
-        </div>
-      ),
-    },
-    orderDetails: {
-      // en: (
-      //   <p>
-      //     You can pre-order <em>NOCTURINE</em> from{" "}
-      //     <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
-      //       <strong>FATHOM BOOKS</strong>
-      //     </a>
-      //     .
-      //   </p>
-      // ),
-      // pl: (
-      //   <p>
-      //     <em>NOCTURINE</em> można zamówić w&nbsp;przedsprzedaży na stronie{" "}
-      //     <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
-      //       <strong>FATHOM BOOKS</strong>
-      //     </a>
-      //     .
-      //   </p>
-      // ),
-      en: null,
-      pl: null,
-    },
-    quotes: {
-      en: [
-        {
-          quote: (
-            <div>
-              Drobnik wowed us with his free-wheeling sentence structure +
-              utterly unique vision.
-            </div>
-          ),
-          source: "FATHOM BOOKS, the publisher",
-        },
-        {
-          quote: (
-            <div>
-              To say <em>Nocturine</em> is oneiric is an understatement — it’s a
-              psychedelic. It kicks in slowly, swaying you from the very first
-              sentences. Hypnotic phrase. Beautiful!
-            </div>
-          ),
-          source: "Patrycja Janowska, LAMPA 1–2/2012",
-        },
-        {
-          quote: (
-            <div>
-              Drobnik creates an evocative, oppressive mood through the
-              dangerous unknown; subtly, with a single shift outside the
-              boundaries of what we are used to.
-            </div>
-          ),
-          source: "Ilona Witkowska, ODRA 5/2012",
-        },
-        {
-          quote: (
-            <div>
-              Drobnik’s strategy is to combine a fast-paced plot typical of
-              popular literature with the highly metaphorical language of
-              literary fiction.
-            </div>
-          ),
-          source: "Rafał Derda, ELEWATOR 2/2012",
-        },
-        {
-          quote: (
-            <div>
-              I’m not going to build suspense. Let me say it right away: this
-              book will drag you in with its thousand tentacles (everyone gets
-              their own, according to their liking).
-            </div>
-          ),
-          source: "Marta Sawicka-Danielak, BLUSZCZ 2/2012",
-        },
-      ],
-      pl: [
-        {
-          quote: (
-            <div>
-              Drobnik zachwycił nas swoją beztroską składnią i&nbsp;absolutnie
-              wyjątkową wizją.
-            </div>
-          ),
-          source: "FATHOM BOOKS, wydawca",
-        },
-        {
-          quote: (
-            <div>
-              Powiedzieć, że „Nocturine” jest oniryczne, to za mało — to
-              psychodelik jest. Wchodzi miękko, od pierwszych zdań już kołysze.
-              Fraza hipnotyczna. Coś pięknego!
-            </div>
-          ),
-          source: "Patrycja Janowska, LAMPA 1–2/2012",
-        },
-        {
-          quote: (
-            <div>
-              Drobnik tworzy sugestywnie nastrój osaczenia przez groźne
-              nieznane; subtelnie, jednym przesunięciem poza ramy naszych
-              przyzwyczajeń.
-            </div>
-          ),
-          source: "Ilona Witkowska, ODRA 5/2012",
-        },
-        {
-          quote: (
-            <div>
-              Przyjęta przez Drobnika strategia polega na połączeniu
-              przynależnej literaturze popularnej wartkości fabuły
-              z&nbsp;gęstym, mocno zmetaforyzowanym językiem literatury pięknej.
-            </div>
-          ),
-          source: "Rafał Derda, ELEWATOR 2/2012",
-        },
-        {
-          quote: (
-            <div>
-              Nie będę budowała suspensu. Zdradzę już na wstępie: ta książka
-              wciągnie was tysiącem swoim macek (każdemu inna, wedle gustu).
-            </div>
-          ),
-          source: "Marta Sawicka-Danielak, BLUSZCZ 2/2012",
-        },
-      ],
-    },
-  },
+  // {
+  //   id: "nocturine",
+  //   excerptId: "nocturine",
+  //   theme: "nocturine",
+  //   title: {
+  //     en: "Nocturine",
+  //     pl: "Nocturine",
+  //   },
+  //   displayOnMain: true,
+  //   cover: nocturineCover,
+  //   colorCover: nocturineCoverColor,
+  //   url: NOCTURINE_URL,
+  //   slogan: {
+  //     en: (
+  //       <div>
+  //         Fiction collection forthcoming in May 2025 from{" "}
+  //         <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
+  //           <strong>FATHOM BOOKS</strong>
+  //         </a>
+  //       </div>
+  //     ),
+  //     pl: (
+  //       <div>
+  //         Zbiór prozy, który ukażę się w&nbsp;maju 2025&nbsp;r. nakładem
+  //         wydawcnitwa{" "}
+  //         <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
+  //           <strong>FATHOM BOOKS</strong>
+  //         </a>
+  //       </div>
+  //     ),
+  //   },
+  //   orderButton: {
+  //     en: null,
+  //     pl: null,
+  //   },
+  //   shopList: null,
+  //   body: {
+  //     en: (
+  //       <div>
+  //         <p>
+  //           The end of the world starts like an ad campaign. When black cubes
+  //           appear above the city of Poznań, some think it’s just another mobile
+  //           network operator entering the market. These include Mietek, an
+  //           unemployed man in his twenties, suddenly abandoned by his boyfriend.
+  //           Soon his best friend also disappears while the black cubes in the
+  //           sky start to multiply, taking up more and more of the urban space.
+  //         </p>
+  //         <p>
+  //           <em>NOCTURINE</em> is a collection of interlinked stories that takes
+  //           you on a genre-bending journey from contemporary Poznań devoured by
+  //           an 8-bit amoeba to a house comprised of countless floors, to a
+  //           homestead haunted by dummies, to the inside of a human body. Each of
+  //           six pieces is told by a different narrator in a frantic yet
+  //           melancholic style.
+  //         </p>
+  //       </div>
+  //     ),
+  //     pl: (
+  //       <div>
+  //         <p>
+  //           Koniec świata zaczyna się jak kampania reklamowa. Gdy nad Poznaniem
+  //           zawisają czarne sześciany, niektórzy sądzą, że to po prostu kolejny
+  //           operator sieci komórkowej wchodzi na rynek. Do tej grupy należy
+  //           Mietek, bezrobotny dwudziestoparolatek, którego nagle opuszcza
+  //           chłopak. Niedługa jego najlepsza przyjaciółka także znika, podczas
+  //           gdy czarne sześciany na niebie zaczynają się mnożyć, zabierając
+  //           coraz więcej miejskiej przestrzeni.
+  //         </p>
+  //         <p>
+  //           <em>NOCTURINE</em> to zbiór powiązanych fabularnie opowiadań, który
+  //           zabiera czytelnika na gatunkowo niepokorną podróż z&nbsp;Poznania
+  //           pożeranego przez ośmiobitową amebę przez dom złożony
+  //           z&nbsp;niezliczonych pięter i&nbsp;nawiedzane przez manekiny
+  //           domostwo aż po wnętrze ludzkiego ciała. Każdy z&nbsp;sześciu tekstów
+  //           ma innego narratora, który snuje opowieść w&nbsp;gorączkowym, lecz
+  //           melancholijnym stylu.
+  //         </p>
+  //       </div>
+  //     ),
+  //   },
+  //   orderDetails: {
+  //     // en: (
+  //     //   <p>
+  //     //     You can pre-order <em>NOCTURINE</em> from{" "}
+  //     //     <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
+  //     //       <strong>FATHOM BOOKS</strong>
+  //     //     </a>
+  //     //     .
+  //     //   </p>
+  //     // ),
+  //     // pl: (
+  //     //   <p>
+  //     //     <em>NOCTURINE</em> można zamówić w&nbsp;przedsprzedaży na stronie{" "}
+  //     //     <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
+  //     //       <strong>FATHOM BOOKS</strong>
+  //     //     </a>
+  //     //     .
+  //     //   </p>
+  //     // ),
+  //     en: null,
+  //     pl: null,
+  //   },
+  //   quotes: {
+  //     en: [
+  //       {
+  //         quote: (
+  //           <div>
+  //             Drobnik wowed us with his free-wheeling sentence structure +
+  //             utterly unique vision.
+  //           </div>
+  //         ),
+  //         source: "FATHOM BOOKS, the publisher",
+  //       },
+  //       {
+  //         quote: (
+  //           <div>
+  //             To say <em>Nocturine</em> is oneiric is an understatement — it’s a
+  //             psychedelic. It kicks in slowly, swaying you from the very first
+  //             sentences. Hypnotic phrase. Beautiful!
+  //           </div>
+  //         ),
+  //         source: "Patrycja Janowska, LAMPA 1–2/2012",
+  //       },
+  //       {
+  //         quote: (
+  //           <div>
+  //             Drobnik creates an evocative, oppressive mood through the
+  //             dangerous unknown; subtly, with a single shift outside the
+  //             boundaries of what we are used to.
+  //           </div>
+  //         ),
+  //         source: "Ilona Witkowska, ODRA 5/2012",
+  //       },
+  //       {
+  //         quote: (
+  //           <div>
+  //             Drobnik’s strategy is to combine a fast-paced plot typical of
+  //             popular literature with the highly metaphorical language of
+  //             literary fiction.
+  //           </div>
+  //         ),
+  //         source: "Rafał Derda, ELEWATOR 2/2012",
+  //       },
+  //       {
+  //         quote: (
+  //           <div>
+  //             I’m not going to build suspense. Let me say it right away: this
+  //             book will drag you in with its thousand tentacles (everyone gets
+  //             their own, according to their liking).
+  //           </div>
+  //         ),
+  //         source: "Marta Sawicka-Danielak, BLUSZCZ 2/2012",
+  //       },
+  //     ],
+  //     pl: [
+  //       {
+  //         quote: (
+  //           <div>
+  //             Drobnik zachwycił nas swoją beztroską składnią i&nbsp;absolutnie
+  //             wyjątkową wizją.
+  //           </div>
+  //         ),
+  //         source: "FATHOM BOOKS, wydawca",
+  //       },
+  //       {
+  //         quote: (
+  //           <div>
+  //             Powiedzieć, że „Nocturine” jest oniryczne, to za mało — to
+  //             psychodelik jest. Wchodzi miękko, od pierwszych zdań już kołysze.
+  //             Fraza hipnotyczna. Coś pięknego!
+  //           </div>
+  //         ),
+  //         source: "Patrycja Janowska, LAMPA 1–2/2012",
+  //       },
+  //       {
+  //         quote: (
+  //           <div>
+  //             Drobnik tworzy sugestywnie nastrój osaczenia przez groźne
+  //             nieznane; subtelnie, jednym przesunięciem poza ramy naszych
+  //             przyzwyczajeń.
+  //           </div>
+  //         ),
+  //         source: "Ilona Witkowska, ODRA 5/2012",
+  //       },
+  //       {
+  //         quote: (
+  //           <div>
+  //             Przyjęta przez Drobnika strategia polega na połączeniu
+  //             przynależnej literaturze popularnej wartkości fabuły
+  //             z&nbsp;gęstym, mocno zmetaforyzowanym językiem literatury pięknej.
+  //           </div>
+  //         ),
+  //         source: "Rafał Derda, ELEWATOR 2/2012",
+  //       },
+  //       {
+  //         quote: (
+  //           <div>
+  //             Nie będę budowała suspensu. Zdradzę już na wstępie: ta książka
+  //             wciągnie was tysiącem swoim macek (każdemu inna, wedle gustu).
+  //           </div>
+  //         ),
+  //         source: "Marta Sawicka-Danielak, BLUSZCZ 2/2012",
+  //       },
+  //     ],
+  //   },
+  // },
   {
     id: "vostok",
-    excerptId: "vostok",
+    // excerptId: "vostok",
     theme: "vostok",
     title: {
       en: "Vostok",
@@ -1671,10 +1661,10 @@ export const BOOKS = [
             warstwę, gdy znajomi wspominają o&nbsp;miejscu zwanym Vostok City.
           </p>
           <p>
-            Na pierwszy rzut oka <em>VOSTOK</em> to kryminał z
-            wysokoartystycznym zacięciem. Gdy jednak zajrzy się głębiej, powieść
-            okazuje się science fiction, które tylko z&nbsp;pozoru gra według
-            reguł realizmu.
+            Na pierwszy rzut oka <em>VOSTOK</em> to kryminał z&nbsp;literackim
+            zacięciem. Gdy jednak zajrzy się głębiej, powieść okazuje się
+            science fiction, które tylko z&nbsp;pozoru gra według reguł
+            realizmu.
           </p>
         </div>
       ),
@@ -1776,7 +1766,7 @@ export const BOOKS = [
   },
   {
     id: "riverine",
-    excerptId: "treasures",
+    // excerptId: "treasures",
     theme: "moths",
     title: {
       en: "Riverine",
@@ -2128,21 +2118,17 @@ export const WEBSITE_TEXT_ABOUT = {
             author of genre-bending books,{" "}
             <AnchorLink href="#vostok" offset="60px">
               <strong>VOSTOK</strong>
-            </AnchorLink>
-            ,{" "}
+            </AnchorLink>{" "}
+            and{" "}
             <AnchorLink href="#riverine" offset="60px">
               <strong>RIVERINE</strong>
             </AnchorLink>
-            , and{" "}
-            <AnchorLink href="#nocturine" offset="60px">
-              <strong>NOCTURINE</strong>
-            </AnchorLink>{" "}
-            (forthcoming), as well as shorter prose published in Split Lip
-            Magazine, HAD, Fractured Lit, Atticus Review, Quarterly West,
-            Pithead Chapel, Lighthouse, STORGY, BULL, Foglifter,
-            X&#8209;R&#8209;A&#8209;Y Literary Magazine, and elsewhere. His
-            writing was longlisted for the Wigleaf Top 50 Very Short Fictions
-            and nominated for the Pushcart Prize. He lives in Kraków, Poland.
+            , as well as shorter prose published in Split Lip Magazine, HAD,
+            Fractured Lit, Atticus Review, Quarterly West, Pithead Chapel,
+            Lighthouse, STORGY, BULL, Foglifter, X&#8209;R&#8209;A&#8209;Y
+            Literary Magazine, and elsewhere. His writing was longlisted for the
+            Wigleaf Top 50 Very Short Fictions and nominated for the Pushcart
+            Prize. He lives in Kraków, Poland.
           </p>
           <p>
             Below you can find a{" "}
@@ -2167,22 +2153,17 @@ export const WEBSITE_TEXT_ABOUT = {
             niejednoznacznych gatunkowo książek,{" "}
             <AnchorLink href="#vostok" offset="60px">
               <strong>VOSTOK</strong>
-            </AnchorLink>
-            ,{" "}
+            </AnchorLink>{" "}
+            i&nbsp;{" "}
             <AnchorLink href="#riverine" offset="60px">
               <strong>RIVERINE</strong>
-            </AnchorLink>{" "}
-            i&nbsp;
-            <AnchorLink href="#nocturine" offset="60px">
-              <strong>NOCTURINE</strong>
-            </AnchorLink>{" "}
-            (w&nbsp;przygotowaniu), a&nbsp;także krótszych utworów
-            opublikowanych m.in. w&nbsp;Split Lip Magazine, HAD, Fractured Lit,
-            Atticus Review, Quarterly West, Pithead Chapel, Lighthouse,
-            Foglifter, STORGY, BULL oraz X&#8209;R&#8209;A&#8209;Y Literary
-            Magazine. Ma na koncie miejsce na longliście Wigleaf Top 50 Very
-            Short Fictions i&nbsp;nominację do Pushcart Prize. Mieszka
-            w&nbsp;Krakowie.
+            </AnchorLink>
+            , a&nbsp;także krótszych utworów opublikowanych m.in. w&nbsp;Split
+            Lip Magazine, HAD, Fractured Lit, Atticus Review, Quarterly West,
+            Pithead Chapel, Lighthouse, Foglifter, STORGY, BULL oraz
+            X&#8209;R&#8209;A&#8209;Y Literary Magazine. Ma na koncie miejsce na
+            longliście Wigleaf Top 50 Very Short Fictions i&nbsp;nominację do
+            Pushcart Prize. Mieszka w&nbsp;Krakowie.
           </p>
           <p>
             Poniżej można znaleźć{" "}
@@ -2399,8 +2380,8 @@ export const WEBSITE_TEXT_TEXTS = {
               rel="noopener noreferrer"
             >
               VOSTOK
-            </a>
-            ,{" "}
+            </a>{" "}
+            and{" "}
             <a
               href={RIVERINE_LOCAL_URL}
               target="_blank"
@@ -2408,15 +2389,7 @@ export const WEBSITE_TEXT_TEXTS = {
             >
               RIVERINE
             </a>
-            , and{" "}
-            <a
-              href={NOCTURINE_LOCAL_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              NOCTURINE
-            </a>{" "}
-            (forthcoming), as well as shorter prose published in HAD,{" "}
+            , as well as shorter prose published in HAD,{" "}
             X&#8209;R&#8209;A&#8209;Y Literary Magazine, Fractured Lit, Atticus
             Review, Pithead Chapel, and elsewhere. His work was longlisted for
             the Wigleaf Top 50 Very Short Fictions and nominated for the
@@ -2446,28 +2419,20 @@ export const WEBSITE_TEXT_TEXTS = {
               rel="noopener noreferrer"
             >
               VOSTOK
-            </a>
-            ,{" "}
+            </a>{" "}
+            i&nbsp;
             <a
               href={VOSTOK_LOCAL_URL}
               target="_blank"
               rel="noopener noreferrer"
             >
               RIVERINE
-            </a>{" "}
-            oraz{" "}
-            <a
-              href={NOCTURINE_LOCAL_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              NOCTURINE
-            </a>{" "}
-            (w&nbsp;przygotowaniu), a&nbsp;także krótszych utworów
-            opublikowanych m.in. w&nbsp;HAD, X&#8209;R&#8209;A&#8209;Y Literary
-            Magazine, Fractured Lit, Atticus Review i&nbsp;Pithead Chapel. Ma na
-            koncie miejsce na longliście Wigleaf Top 50 Very Short Fictions
-            i&nbsp;nominację do Pushcart Prize. Jest na{" "}
+            </a>
+            , a&nbsp;także krótszych utworów opublikowanych m.in. w&nbsp;HAD,
+            X&#8209;R&#8209;A&#8209;Y Literary Magazine, Fractured Lit, Atticus
+            Review i&nbsp;Pithead Chapel. Ma na koncie miejsce na longliście
+            Wigleaf Top 50 Very Short Fictions i&nbsp;nominację do Pushcart
+            Prize. Jest na{" "}
             <a href={BLUESKY_URL} target="_blank" rel="noopener noreferrer">
               Bluesky
             </a>{" "}
@@ -2512,20 +2477,15 @@ export const WEBSITE_TEXT_BLOG = {
         is the author of genre-bending books,{" "}
         <a href={VOSTOK_LOCAL_URL} target="_blank" rel="noopener noreferrer">
           VOSTOK
-        </a>
-        ,{" "}
+        </a>{" "}
+        and{" "}
         <a href={RIVERINE_LOCAL_URL} target="_blank" rel="noopener noreferrer">
           RIVERINE
         </a>
-        , and{" "}
-        <a href={NOCTURINE_LOCAL_URL} target="_blank" rel="noopener noreferrer">
-          NOCTURINE
-        </a>{" "}
-        (forthcoming), as well as shorter prose published in HAD,
-        X&#8209;R&#8209;A&#8209;Y Literary Magazine, Fractured Lit, Atticus
-        Review, Pithead Chapel, and elsewhere. His work was longlisted for the
-        Wigleaf Top 50 Very Short Fictions and nominated for the Pushcart Prize.
-        Find him on{" "}
+        , as well as shorter prose published in HAD, X&#8209;R&#8209;A&#8209;Y
+        Literary Magazine, Fractured Lit, Atticus Review, Pithead Chapel, and
+        elsewhere. His work was longlisted for the Wigleaf Top 50 Very Short
+        Fictions and nominated for the Pushcart Prize. Find him on{" "}
         <a href={BLUESKY_URL} target="_blank" rel="noopener noreferrer">
           Bluesky
         </a>{" "}

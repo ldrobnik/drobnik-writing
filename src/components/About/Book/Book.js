@@ -12,7 +12,7 @@ import {
 import { BookBody, BookSlogan } from "../../../styles/about";
 import { AnimatedContent } from "../../../animations/shared";
 import { BookAnimatedButton } from "../../../animations/about";
-import { EXCERPT_BUTTON, BOOKS } from "./../../../data/constants";
+import { BOOKS } from "./../../../data/constants";
 import CentredPhoto from "../../UI/CentredPhoto/CentredPhoto";
 import SectionHeading from "../../UI/SectionHeading/SectionHeading";
 import QuoteList from "../QuoteList/QuoteList";
@@ -26,8 +26,8 @@ export const Book = (props) => {
   //specifies whether the preorder button should be visible
   const [orderBtnVisible, setOrderBtnVisible] = useState(false);
 
-  //specifies whether the excerpt button should be visible
-  const [excerptBtnVisible, setExcerptBtnVisible] = useState(false);
+  // //specifies whether the excerpt button should be visible
+  // const [excerptBtnVisible, setExcerptBtnVisible] = useState(false);
 
   //shows the content
   const showContent = () => {
@@ -44,15 +44,15 @@ export const Book = (props) => {
     setQuotesVisible(true);
   };
 
-  //sets excerpt button visibility to true
-  const showExcerptBtn = () => {
-    setExcerptBtnVisible(true);
-  };
+  // //sets excerpt button visibility to true
+  // const showExcerptBtn = () => {
+  //   setExcerptBtnVisible(true);
+  // };
 
   //sets quotes and button visibility to false
   const hideElements = () => {
     setQuotesVisible(false);
-    setExcerptBtnVisible(false);
+    // setExcerptBtnVisible(false);
   };
 
   useEffect(() => {
@@ -98,15 +98,15 @@ export const Book = (props) => {
       </AnimatedContent>
       <Waypoint onEnter={showQuotes} bottomOffset="25%" />
       <QuoteList book={props.book} lang={props.lang} visible={quotesVisible} />
-      <Waypoint onEnter={showExcerptBtn} />
+      {/* <Waypoint onEnter={showExcerptBtn} />
       <BookAnimatedButton pose={excerptBtnVisible ? "visible" : "hidden"}>
         <CentredButton
           message={EXCERPT_BUTTON[props.lang]}
           path={"/texts/" + BOOKS[props.book].excerptId}
         />
-      </BookAnimatedButton>
+      </BookAnimatedButton> */}
       <Waypoint onEnter={showQuotes} />
-      <Waypoint onEnter={showExcerptBtn} />
+      {/* <Waypoint onEnter={showExcerptBtn} /> */}
       <AnimatedContent pose={!props.reload ? "visible" : "hidden"}>
         <SectionLinks
           lang={props.lang}
@@ -116,11 +116,11 @@ export const Book = (props) => {
           read={true}
         />
         <Waypoint onEnter={showQuotes} />
-        <Waypoint onEnter={showExcerptBtn} />
+        {/* <Waypoint onEnter={showExcerptBtn} /> */}
         <SectionSeparator />
       </AnimatedContent>
       <Waypoint onEnter={showQuotes} />
-      <Waypoint onEnter={showExcerptBtn} />
+      {/* <Waypoint onEnter={showExcerptBtn} /> */}
     </React.Fragment>
   );
 };

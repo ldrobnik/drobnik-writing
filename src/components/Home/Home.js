@@ -13,11 +13,7 @@ import Layout from "../Layout/Layout";
 import DataNotice from "../UI/DataNotice/DataNotice";
 import Spinner from "../UI/Spinner/Spinner";
 import { GlobalStyle } from "../../styles/shared";
-import {
-  ALL_BLOG_NOTES,
-  NOCTURINE_URL,
-  VOSTOK_URL,
-} from "../../data/constants";
+import { ALL_BLOG_NOTES } from "../../data/constants";
 
 const About = lazy(() => import("../About/About"));
 const Writing = lazy(() => import("../Writing/Writing"));
@@ -103,22 +99,22 @@ export const Home = (props) => {
             <Route path="/" exact component={About} key="home" />
             <Route path="/texts/" exact component={Writing} key="writing" />
             <Route path="/texts/:id" exact component={Text} key="text" />
-            <Route
+            {/* <Route
               path="/nocturine/"
               exact
               component={() => <BookPage book={0} />}
               key="nocturine"
-            />
+            /> */}
             <Route
               path="/vostok/"
               exact
-              component={() => <BookPage book={1} />}
+              component={() => <BookPage book={0} />}
               key="vostok"
             />
             <Route
               path="/riverine/"
               exact
-              component={() => <BookPage book={2} />}
+              component={() => <BookPage book={1} />}
               key="riverine"
             />
             {/*<Route path="/nocturine/" exact component={() => {*/}
