@@ -15,7 +15,7 @@ import {
 import { AnimatedContent } from "../../../animations/shared";
 import { BookAnimatedButton } from "../../../animations/about";
 import { BOOKS, WEBSITE_TEXT_BOOKPAGE } from "../../../data/constants";
-import CentredPhoto from "../../UI/CentredPhoto/CentredPhoto";
+import BookPhoto from "../BookPhoto/BookPhoto";
 import SectionHeading from "../../UI/SectionHeading/SectionHeading";
 import QuoteList from "../../About/QuoteList/QuoteList";
 import CentredButton from "../../UI/CentredButton/CentredButton";
@@ -65,7 +65,7 @@ export const BookDetails = (props) => {
     <React.Fragment>
       <AnimatedContent pose={!props.reload ? "visible" : "hidden"}>
         <BookPageTopPanel>
-          <CentredPhoto
+          <BookPhoto
             src={BOOKS[props.book].colorCover}
             alt="Book cover"
             link={BOOKS[props.book].url}
@@ -84,6 +84,7 @@ export const BookDetails = (props) => {
                       href={shop.url}
                       target="_blank"
                       rel="noopener noreferrer"
+                      key={k}
                     >
                       &nbsp;<strong>{shop.name[props.lang]}</strong>
                     </a>

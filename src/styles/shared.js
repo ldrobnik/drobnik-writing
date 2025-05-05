@@ -1,4 +1,4 @@
-import styled, {createGlobalStyle, keyframes} from 'styled-components';
+import styled, { createGlobalStyle, keyframes } from "styled-components";
 
 /* Keyframes */
 
@@ -30,7 +30,6 @@ export const REVERSE_PULSATE_KEYFRAMES = keyframes`
   }
 `;
 
-
 //Keyframes for 'popping' animation
 export const POP_KEYFRAMES = keyframes`
   0% {
@@ -55,21 +54,23 @@ export const FADE_DURATION = 200;
 export const GlobalStyle = createGlobalStyle`
 
   body {
-    font-family: ${props => props.theme.sansSerif};
-    color: ${props => props.theme.darkColor};
-    background: linear-gradient(145deg, ${props => props.theme.color1}, ${props => props.theme.color2});
+    font-family: ${(props) => props.theme.sansSerif};
+    color: ${(props) => props.theme.darkColor};
+    background: linear-gradient(145deg, ${(props) => props.theme.color1}, ${(
+  props
+) => props.theme.color2});
     min-height: 100vh;
   }
 
   a {
     text-decoration: none;
-    color: ${props => props.theme.darkColor};
+    color: ${(props) => props.theme.darkColor};
 
   }
 
   ::selection {
-    color: ${props => props.theme.color1};
-    background-color: ${props => props.theme.darkColor};
+    color: ${(props) => props.theme.color1};
+    background-color: ${(props) => props.theme.darkColor};
   }
 `;
 
@@ -77,22 +78,19 @@ export const SectionSeparator = styled.div`
   margin: 6em auto 3em auto;
   height: 0.8em;
   width: 15em;
-  background-color: ${props => props.theme.darkColor};
+  background-color: ${(props) => props.theme.darkColor};
 `;
-
 
 export const SmallSeparator = styled.div`
   margin: 2.8em auto 1.4em auto;
   height: 0.6em;
   width: 8em;
-  background-color: ${props => props.theme.darkColor};
+  background-color: ${(props) => props.theme.darkColor};
 `;
-
 
 export const InvisibleSeparator = styled.div`
   height: 3em;
 `;
-
 
 /* NavBar.js */
 
@@ -112,7 +110,7 @@ export const NavToolbar = styled.header`
   justify-content: flex-end;
   align-items: center;
   box-sizing: border-box;
-  background-color: ${props => props.theme.background};
+  background-color: ${(props) => props.theme.background};
   z-index: 50;
   font-weight: bold;
   user-select: none;
@@ -124,44 +122,44 @@ export const LogoWrapper = styled.div`
   top: -4px;
   left: -2px;
 
-  @media all and (min-width: ${props => props.theme.smallScr}) {
+  @media all and (min-width: ${(props) => props.theme.smallScr}) {
     &:hover {
-      animation: ${PULSATE_KEYFRAMES} ${props => props.theme.pulsateAnimation};
+      animation: ${PULSATE_KEYFRAMES} ${(props) => props.theme.pulsateAnimation};
     }
   }
 `;
 
 export const NavElement = styled.div`
   cursor: pointer;
-  margin: ${props => props.theme.navIconMargin};
+  margin: ${(props) => props.theme.navIconMargin};
 
-  @media all and (min-width: ${props => props.theme.smallScr}) {
+  @media all and (min-width: ${(props) => props.theme.smallScr}) {
     &:hover {
-      animation: ${PULSATE_KEYFRAMES} ${props => props.theme.pulsateAnimation};
+      animation: ${PULSATE_KEYFRAMES} ${(props) => props.theme.pulsateAnimation};
     }
   }
 `;
 
 export const NavInactiveElement = styled.div`
   cursor: not-allowed;
-  margin: ${props => props.theme.navIconMargin};
-  opacity: ${props => props.theme.translucent};
+  margin: ${(props) => props.theme.navIconMargin};
+  opacity: ${(props) => props.theme.translucent};
 `;
 
 export const ToggledNavElement = styled.div`
   cursor: pointer;
-  margin: ${props => props.theme.navIconMargin};
-  opacity: ${props => props.theme.translucent};
+  margin: ${(props) => props.theme.navIconMargin};
+  opacity: ${(props) => props.theme.translucent};
 
-  @media all and (min-width: ${props => props.theme.smallScr}) {
+  @media all and (min-width: ${(props) => props.theme.smallScr}) {
     &:hover {
-      animation: ${PULSATE_KEYFRAMES} ${props => props.theme.pulsateAnimation};
+      animation: ${PULSATE_KEYFRAMES} ${(props) => props.theme.pulsateAnimation};
     }
   }
 `;
 
 export const NavLinkContent = styled.div`
-  padding: ${props => props.theme.navIconPadding};
+  padding: ${(props) => props.theme.navIconPadding};
   display: block;
   min-width: 1.5em;
 `;
@@ -183,21 +181,21 @@ export const NavLinksWrapper = styled.div`
   display: flex;
   justify-content: center;
   font-weight: bold;
-  font-size: ${props => props.theme.captionSize}
+  font-size: ${(props) => props.theme.captionSize}
   margin: 0 auto;
   transform: translateX(6vw);
 
   div {
     padding: 0 0.3em;
 
-    @media all and (min-width: ${props => props.theme.smallScr}) {
+    @media all and (min-width: ${(props) => props.theme.smallScr}) {
       &:hover {
-        animation: ${PULSATE_KEYFRAMES} ${props => props.theme.pulsateAnimation};
+        animation: ${PULSATE_KEYFRAMES} ${(props) =>
+  props.theme.pulsateAnimation};
       }
     }
   }
 `;
-
 
 /* CentredButton.js */
 
@@ -207,8 +205,8 @@ export const CentredButtonOuterWrapper = styled.div`
 `;
 
 export const CentredButtonButtonWrapper = styled.div`
-  background-color: ${props => props.theme.background};
-  font-size: ${props => props.theme.bodySize};
+  background-color: ${(props) => props.theme.background};
+  font-size: ${(props) => props.theme.bodySize};
   font-weight: bold;
   padding: 0.8em;
   margin: 0 0.5em;
@@ -219,26 +217,26 @@ export const CentredButtonButtonWrapper = styled.div`
   overflow: hidden;
 
   &:hover {
-    animation: ${POP_KEYFRAMES} ${props => props.theme.popAnimation}
+    animation: ${POP_KEYFRAMES} ${(props) => props.theme.popAnimation};
   }
 
-  @media all and (min-width: ${props => props.theme.extraSmallScr}) {
-    margin: 0 0.8em;;
+  @media all and (min-width: ${(props) => props.theme.extraSmallScr}) {
+    margin: 0 0.8em;
   }
 
-  @media all and (min-width: ${props => props.theme.smallScr}) {
+  @media all and (min-width: ${(props) => props.theme.smallScr}) {
     margin: 0 18%;
   }
 
-  @media all and (min-width: ${props => props.theme.mediumScr}) {
+  @media all and (min-width: ${(props) => props.theme.mediumScr}) {
     margin: 0 20%;
   }
 
-  @media all and (min-width: ${props => props.theme.largeScr}) {
+  @media all and (min-width: ${(props) => props.theme.largeScr}) {
     margin: 0 25%;
   }
 
-  @media all and (min-width: ${props => props.theme.extraLargeScr}) {
+  @media all and (min-width: ${(props) => props.theme.extraLargeScr}) {
     margin: 0 30%;
   }
 `;
@@ -253,7 +251,7 @@ export const CentredPhotoWrapper = styled.div`
 
 export const Photo = styled.div`
   height: 12em;
-  opacity: ${props => props.theme.slightlyTranslucent};
+  opacity: ${(props) => props.theme.slightlyTranslucent};
   z-index: 60;
 
   img {
@@ -263,7 +261,7 @@ export const Photo = styled.div`
 
 export const PhotoLink = styled.div`
   height: 24em;
-  opacity: ${props => props.theme.slightlyTranslucent};
+  opacity: ${(props) => props.theme.slightlyTranslucent};
   z-index: 60;
 
   img {
@@ -275,14 +273,14 @@ export const PhotoLink = styled.div`
 
 export const CopyNote = styled.div`
   margin: 1em 0;
-  font-size: ${props => props.theme.smallCaptionSize};
+  font-size: ${(props) => props.theme.smallCaptionSize};
   text-align: center;
 `;
 
 /* DataNotice.js */
 
 export const Notice = styled.div`
-  background-color: ${props => props.theme.darkColor};
+  background-color: ${(props) => props.theme.darkColor};
   padding: 1em 0;
   margin: 0 auto;
   position: fixed;
@@ -291,32 +289,31 @@ export const Notice = styled.div`
   width: 90%;
   text-align: center;
 
-
-  @media all and (min-width: ${props => props.theme.mediumScr}) {
+  @media all and (min-width: ${(props) => props.theme.mediumScr}) {
     left: 10%;
     width: 80%;
   }
 
-  @media all and (min-width: ${props => props.theme.largeScr}) {
+  @media all and (min-width: ${(props) => props.theme.largeScr}) {
     left: 15%;
     width: 70%;
   }
 
-  @media all and (min-width: ${props => props.theme.extraLargeScr}) {
+  @media all and (min-width: ${(props) => props.theme.extraLargeScr}) {
     left: 20%;
     width: 60%;
   }
 `;
 
 export const NoticeMessage = styled.div`
-  color: ${props => props.theme.lightColor};
-  font-size: ${props => props.theme.captionSize};
-  font-family: ${props => props.theme.serif};
+  color: ${(props) => props.theme.lightColor};
+  font-size: ${(props) => props.theme.captionSize};
+  font-family: ${(props) => props.theme.serif};
   padding: 0.5em 1em;
 `;
 
 export const NoticeDismissButton = styled.div`
-  background-color: ${props => props.theme.lightColor};
+  background-color: ${(props) => props.theme.lightColor};
   text-transform: uppercase;
   font-weight: bold;
   max-width: 8em;
@@ -325,7 +322,7 @@ export const NoticeDismissButton = styled.div`
   cursor: pointer;
 
   &:hover {
-    opacity: ${props => props.theme.slightlyTranslucent};
+    opacity: ${(props) => props.theme.slightlyTranslucent};
   }
 `;
 
@@ -336,21 +333,21 @@ export const SectionHeader = styled.div`
 `;
 
 export const SectionTitle = styled.h2`
-  font-size: ${props => props.theme.titleSize};
+  font-size: ${(props) => props.theme.titleSize};
   font-weight: bold;
   margin: 0.5em 0;
 
-  @media all and (max-width: ${props => props.theme.smallScr}) {
+  @media all and (max-width: ${(props) => props.theme.smallScr}) {
     font-size: 12vw;
   }
 `;
 
 export const SectionSubtitle = styled.div`
-  font-size: ${props => props.theme.subtitleSize};
+  font-size: ${(props) => props.theme.subtitleSize};
   font-weight: bold;
   font-style: italic;
 
-  @media all and (max-width: ${props => props.theme.extraSmallScr}) {
+  @media all and (max-width: ${(props) => props.theme.extraSmallScr}) {
     font-size: 6vw;
   }
 `;
@@ -358,15 +355,14 @@ export const SectionSubtitle = styled.div`
 /* PageHeading.js */
 
 export const PageTitle = styled.h1`
-  font-size: ${props => props.theme.titleSize};
+  font-size: ${(props) => props.theme.titleSize};
   font-weight: bold;
   margin: 0;
 
-  @media all and (max-width: ${props => props.theme.smallScr}) {
+  @media all and (max-width: ${(props) => props.theme.smallScr}) {
     font-size: 12vw;
   }
 `;
-
 
 /* Spinner.js */
 
@@ -376,13 +372,13 @@ export const SpinnerWrapper = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: ${REVERSE_PULSATE_KEYFRAMES} ${props => props.theme.pulsateAnimation};
+  animation: ${REVERSE_PULSATE_KEYFRAMES}
+    ${(props) => props.theme.pulsateAnimation};
 
   img {
     height: 110px;
   }
 `;
-
 
 /* SmallSpinner.js */
 
@@ -392,7 +388,8 @@ export const SmallSpinnerWrapper = styled.div`
   justify-content: center;
   min-height: 100px;
   width: 100%;
-  animation: ${REVERSE_PULSATE_KEYFRAMES} ${props => props.theme.pulsateAnimation};
+  animation: ${REVERSE_PULSATE_KEYFRAMES}
+    ${(props) => props.theme.pulsateAnimation};
 
   img {
     height: 60px;
@@ -406,7 +403,11 @@ export const SpinnerBackdrop = styled.div`
   z-index: 80;
   width: 100%;
   height: 100%;
-  background: linear-gradient(145deg, ${props => props.theme.color1}, ${props => props.theme.color2});
+  background: linear-gradient(
+    145deg,
+    ${(props) => props.theme.color1},
+    ${(props) => props.theme.color2}
+  );
 `;
 
 /* SubpageLinks.js */
@@ -415,7 +416,7 @@ export const SubLinks = styled.div`
   display: flex;
   justify-content: center;
   font-weight: bold;
-  font-size: ${props => props.theme.captionSize}
+  font-size: ${(props) => props.theme.captionSize}
   user-select: none;
   margin: 1em 0;
   text-decoration: underline;
@@ -423,9 +424,10 @@ export const SubLinks = styled.div`
   div {
     padding: 0 0.3em;
 
-    @media all and (min-width: ${props => props.theme.smallScr}) {
+    @media all and (min-width: ${(props) => props.theme.smallScr}) {
       &:hover {
-        animation: ${PULSATE_KEYFRAMES} ${props => props.theme.pulsateAnimation};
+        animation: ${PULSATE_KEYFRAMES} ${(props) =>
+  props.theme.pulsateAnimation};
       }
     }
   }
@@ -435,6 +437,5 @@ export const SubLinks = styled.div`
 
 export const ToggleWrapper = styled.div`
   padding: 0.1em;
-  opacity: ${props => props.theme.translucent};
+  opacity: ${(props) => props.theme.translucent};
 `;
-

@@ -31,7 +31,7 @@ const riverineCoverColor = "riverineCoverColor.jpg";
 // export const NOCTURINE_URL = "http://fathombooks.org/html/drobnik.html"; //Nocturine pre-order
 // export const NOCTURINE_LOCAL_URL = "https://drobnik.co/nocturine";
 // export const FATHOM_BOOKS_URL = "http://fathombooks.org/"; //Fathom Books website
-export const VOSTOK_URL = "https://mybook.to/vostok-paper"; // buy Vostok
+// export const VOSTOK_URL = "https://mybook.to/vostok-paper"; // buy Vostok
 export const VOSTOK_EBOOK_URL = "https://mybook.to/vostok-digital"; // buy Vostok ebook
 export const VOSTOK_LOCAL_URL = "https://drobnik.co/vostok";
 export const VRAEDA_URL = "https://www.vraeydamedia.ca/literary"; //Vraeyda Literary website
@@ -820,7 +820,7 @@ export const PUBLICATIONS = {
     {
       title: "Vostok",
       year: "2021",
-      url: VOSTOK_URL,
+      url: "/vostok",
       cover: vostokCover,
       altText: {
         en: "Vostok cover",
@@ -1588,48 +1588,32 @@ export const BOOKS = [
       en: "Vostok",
       pl: "Vostok",
     },
-    displayOnMain: true,
+    displayOnMain: false,
     cover: vostokCover,
     colorCover: vostokCoverColor,
-    url: VOSTOK_URL,
+    url: null,
     slogan: {
       en: (
         <div>
-          Novel published in 2021 by{" "}
-          <a href={VOSTOK_URL} target="_blank" rel="noopener noreferrer">
-            <strong>VRAEYDA&nbsp;LITERARY</strong>
-          </a>
+          Novel published in 2021 by <strong>VRAEYDA&nbsp;LITERARY</strong>
+          <br />
+          &#40;out of print&#41;
         </div>
       ),
       pl: (
         <div>
-          Powieść wydana w&nbsp;2021&nbsp;roku nakładem wydawnictwa{" "}
-          <a href={VOSTOK_URL} target="_blank" rel="noopener noreferrer">
-            <strong>VAEYDA&nbsp;LITERARY</strong>
-          </a>
+          Powieść wydana w&nbsp;2021&nbsp;roku przez wydawnictwo{" "}
+          <strong>VAEYDA&nbsp;LITERARY</strong>
+          <br />
+          &#40;nakład wyczerpany&#41;
         </div>
       ),
     },
     orderButton: {
-      en: ORDER_BUTTON["order"]["en"],
-      pl: ORDER_BUTTON["order"]["pl"],
+      en: null,
+      pl: null,
     },
-    shopList: [
-      {
-        name: {
-          en: <React.Fragment>PAPER</React.Fragment>,
-          pl: <React.Fragment>PAPIER</React.Fragment>,
-        },
-        url: VOSTOK_URL,
-      },
-      {
-        name: {
-          en: <React.Fragment>DIGITAL</React.Fragment>,
-          pl: <React.Fragment>E-BOOK</React.Fragment>,
-        },
-        url: VOSTOK_EBOOK_URL,
-      },
-    ],
+    shopList: null,
     body: {
       en: (
         <div>
@@ -1670,32 +1654,8 @@ export const BOOKS = [
       ),
     },
     orderDetails: {
-      en: (
-        <p>
-          You can buy <em>VOSTOK</em> in{" "}
-          <a href={VOSTOK_URL} target="_blank" rel="noopener noreferrer">
-            <strong>PAPER</strong>
-          </a>{" "}
-          and{" "}
-          <a href={VOSTOK_EBOOK_URL} target="_blank" rel="noopener noreferrer">
-            <strong>DIGITAL</strong>
-          </a>{" "}
-          formats.
-        </p>
-      ),
-      pl: (
-        <p>
-          <em>VOSTOK</em> można kupić w&nbsp;formacie{" "}
-          <a href={VOSTOK_URL} target="_blank" rel="noopener noreferrer">
-            <strong>PAPIEROWYM</strong>
-          </a>{" "}
-          i&nbsp;
-          <a href={VOSTOK_EBOOK_URL} target="_blank" rel="noopener noreferrer">
-            <strong>ELEKTRONICZNYM</strong>
-          </a>
-          .
-        </p>
-      ),
+      en: null,
+      pl: null,
     },
     quotes: {
       en: [
@@ -2094,7 +2054,7 @@ export const WEBSITE_TEXT_SHARED = {
     },
   },
   copyright: (
-    <React.Fragment>&copy;&nbsp;2019–2022 Łukasz Drobnik</React.Fragment>
+    <React.Fragment>&copy;&nbsp;2019–2025 Łukasz Drobnik</React.Fragment>
   ),
 };
 
@@ -2698,16 +2658,6 @@ export const LINKS = [
   //   subtitle: "featuring flash fiction by Tara Isabel Zambrano",
   //   url: "https://blyski.org",
   // },
-  {
-    title: "Buy VOSTOK",
-    subtitle: "my literary sci-fi novel",
-    url: VOSTOK_URL,
-  },
-  {
-    title: "Buy VOSTOK ebook",
-    subtitle: "my literary sci-fi novel",
-    url: VOSTOK_EBOOK_URL,
-  },
   // {
   //   title: "Pre-order NOCTURINE",
   //   subtitle: "my linked story collection",
