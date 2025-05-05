@@ -16,6 +16,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
+import { BoldText } from "../styles/shared";
+
 //file names for book covers
 // const nocturineCover = "nocturineCover.jpg";
 // const nocturineCoverColor = "nocturineCoverColor.jpg";
@@ -2075,11 +2077,7 @@ export const WEBSITE_TEXT_ABOUT = {
         <div>
           <p>
             Łukasz Drobnik is a Polish fiction writer writing mostly in English,
-            author of genre-bending books,{" "}
-            <AnchorLink href="#vostok" offset="60px">
-              <strong>VOSTOK</strong>
-            </AnchorLink>{" "}
-            and{" "}
+            author of genre-bending books, <BoldText>VOSTOK</BoldText> and{" "}
             <AnchorLink href="#riverine" offset="60px">
               <strong>RIVERINE</strong>
             </AnchorLink>
@@ -2110,11 +2108,8 @@ export const WEBSITE_TEXT_ABOUT = {
         <div>
           <p>
             Łukasz Drobnik to polski prozaik piszący głównie po angielsku, autor
-            niejednoznacznych gatunkowo książek,{" "}
-            <AnchorLink href="#vostok" offset="60px">
-              <strong>VOSTOK</strong>
-            </AnchorLink>{" "}
-            i&nbsp;{" "}
+            niejednoznacznych gatunkowo książek, <BoldText>VOSTOK</BoldText>{" "}
+            i&nbsp;
             <AnchorLink href="#riverine" offset="60px">
               <strong>RIVERINE</strong>
             </AnchorLink>

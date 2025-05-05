@@ -74,6 +74,11 @@ export const GlobalStyle = createGlobalStyle`
   }
 `;
 
+export const BoldText = styled.span`
+  font-family: ${(props) => props.theme.sansSerif};
+  font-weight: bold;
+`;
+
 export const SectionSeparator = styled.div`
   margin: 6em auto 3em auto;
   height: 0.8em;
