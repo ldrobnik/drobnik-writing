@@ -30,9 +30,8 @@ const riverineCoverColor = "riverineCoverColor.jpg";
 
 //Frequently used URLs
 
-// export const NOCTURINE_URL = "http://fathombooks.org/html/drobnik.html"; //Nocturine pre-order
+// export const NOCTURINE_URL = ""; //Nocturine pre-order
 // export const NOCTURINE_LOCAL_URL = "https://drobnik.co/nocturine";
-// export const FATHOM_BOOKS_URL = "http://fathombooks.org/"; //Fathom Books website
 // export const VOSTOK_URL = "https://mybook.to/vostok-paper"; // buy Vostok
 export const VOSTOK_EBOOK_URL = "https://mybook.to/vostok-digital"; // buy Vostok ebook
 export const VOSTOK_LOCAL_URL = "https://drobnik.co/vostok";
@@ -1384,7 +1383,10 @@ export const BOOKS = [
   //     en: "Nocturine",
   //     pl: "Nocturine",
   //   },
-  //   displayOnMain: true,
+  //       displayOnMain: {
+  //   en: true,
+  //   pl: true,
+  // },
   //   cover: nocturineCover,
   //   colorCover: nocturineCoverColor,
   //   url: NOCTURINE_URL,
@@ -1590,7 +1592,10 @@ export const BOOKS = [
       en: "Vostok",
       pl: "Vostok",
     },
-    displayOnMain: false,
+    displayOnMain: {
+      en: false,
+      pl: false,
+    },
     cover: vostokCover,
     colorCover: vostokCoverColor,
     url: null,
@@ -1734,7 +1739,10 @@ export const BOOKS = [
       en: "Riverine",
       pl: "Riverine",
     },
-    displayOnMain: true,
+    displayOnMain: {
+      en: true,
+      pl: true,
+    },
     cover: riverineCover,
     colorCover: riverineCoverColor,
     url: RIVERINE_URL,
