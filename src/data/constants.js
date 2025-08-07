@@ -29,9 +29,9 @@ const riverineCoverColor = "riverineCoverColor.jpg";
 // const tbaCover = "tbaCover.jpg";
 
 //Frequently used URLs
-
 export const NOCTURINE_URL = "http://alienbuddhapress.wordpress.com/"; //Nocturine pre-order
 export const NOCTURINE_LOCAL_URL = "https://drobnik.co/nocturine";
+
 // export const VOSTOK_URL = "https://mybook.to/vostok-paper"; // buy Vostok
 export const VOSTOK_EBOOK_URL = "https://mybook.to/vostok-digital"; // buy Vostok ebook
 export const VOSTOK_LOCAL_URL = "https://drobnik.co/vostok";
