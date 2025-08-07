@@ -99,12 +99,6 @@ export const Home = (props) => {
             <Route path="/" exact component={About} key="home" />
             <Route path="/texts/" exact component={Writing} key="writing" />
             <Route path="/texts/:id" exact component={Text} key="text" />
-            {/* <Route
-              path="/nocturine/"
-              exact
-              component={() => <BookPage book={0} />}
-              key="nocturine"
-            /> */}
             <Route
               path="/vostok/"
               exact
@@ -116,6 +110,12 @@ export const Home = (props) => {
               exact
               component={() => <BookPage book={1} />}
               key="riverine"
+            />
+            <Route
+              path="/nocturine/"
+              exact
+              component={() => <BookPage book={2} />}
+              key="nocturine"
             />
             {/*<Route path="/nocturine/" exact component={() => {*/}
             {/*    window.location.href = NOCTURINE_URL;*/}
