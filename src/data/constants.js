@@ -19,8 +19,8 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import { BoldText } from "../styles/shared";
 
 //file names for book covers
-// const nocturineCover = "nocturineCover.jpg";
-// const nocturineCoverColor = "nocturineCoverColor.jpg";
+const nocturineCover = "nocturineCover.jpg";
+const nocturineCoverColor = "nocturineCoverColor.jpg";
 const nocCunCover = "nocCunCover.jpg";
 const vostokCover = "vostokCover.jpg";
 const vostokCoverColor = "vostokCoverColor.jpg";
@@ -30,9 +30,8 @@ const riverineCoverColor = "riverineCoverColor.jpg";
 
 //Frequently used URLs
 
-// export const NOCTURINE_URL = "http://fathombooks.org/html/drobnik.html"; //Nocturine pre-order
-// export const NOCTURINE_LOCAL_URL = "https://drobnik.co/nocturine";
-// export const FATHOM_BOOKS_URL = "http://fathombooks.org/"; //Fathom Books website
+export const NOCTURINE_URL = "http://alienbuddhapress.wordpress.com/"; //Nocturine pre-order
+export const NOCTURINE_LOCAL_URL = "https://drobnik.co/nocturine";
 // export const VOSTOK_URL = "https://mybook.to/vostok-paper"; // buy Vostok
 export const VOSTOK_EBOOK_URL = "https://mybook.to/vostok-digital"; // buy Vostok ebook
 export const VOSTOK_LOCAL_URL = "https://drobnik.co/vostok";
@@ -1376,212 +1375,6 @@ export const BOOK_LIST = ["vostok", "riverine"];
 
 //Content about books
 export const BOOKS = [
-  // {
-  //   id: "nocturine",
-  //   excerptId: "nocturine",
-  //   theme: "nocturine",
-  //   title: {
-  //     en: "Nocturine",
-  //     pl: "Nocturine",
-  //   },
-  //   displayOnMain: true,
-  //   cover: nocturineCover,
-  //   colorCover: nocturineCoverColor,
-  //   url: NOCTURINE_URL,
-  //   slogan: {
-  //     en: (
-  //       <div>
-  //         Fiction collection forthcoming in May 2025 from{" "}
-  //         <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
-  //           <strong>FATHOM BOOKS</strong>
-  //         </a>
-  //       </div>
-  //     ),
-  //     pl: (
-  //       <div>
-  //         Zbiór prozy, który ukażę się w&nbsp;maju 2025&nbsp;r. nakładem
-  //         wydawcnitwa{" "}
-  //         <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
-  //           <strong>FATHOM BOOKS</strong>
-  //         </a>
-  //       </div>
-  //     ),
-  //   },
-  //   orderButton: {
-  //     en: null,
-  //     pl: null,
-  //   },
-  //   shopList: null,
-  //   body: {
-  //     en: (
-  //       <div>
-  //         <p>
-  //           The end of the world starts like an ad campaign. When black cubes
-  //           appear above the city of Poznań, some think it’s just another mobile
-  //           network operator entering the market. These include Mietek, an
-  //           unemployed man in his twenties, suddenly abandoned by his boyfriend.
-  //           Soon his best friend also disappears while the black cubes in the
-  //           sky start to multiply, taking up more and more of the urban space.
-  //         </p>
-  //         <p>
-  //           <em>NOCTURINE</em> is a collection of interlinked stories that takes
-  //           you on a genre-bending journey from contemporary Poznań devoured by
-  //           an 8-bit amoeba to a house comprised of countless floors, to a
-  //           homestead haunted by dummies, to the inside of a human body. Each of
-  //           six pieces is told by a different narrator in a frantic yet
-  //           melancholic style.
-  //         </p>
-  //       </div>
-  //     ),
-  //     pl: (
-  //       <div>
-  //         <p>
-  //           Koniec świata zaczyna się jak kampania reklamowa. Gdy nad Poznaniem
-  //           zawisają czarne sześciany, niektórzy sądzą, że to po prostu kolejny
-  //           operator sieci komórkowej wchodzi na rynek. Do tej grupy należy
-  //           Mietek, bezrobotny dwudziestoparolatek, którego nagle opuszcza
-  //           chłopak. Niedługa jego najlepsza przyjaciółka także znika, podczas
-  //           gdy czarne sześciany na niebie zaczynają się mnożyć, zabierając
-  //           coraz więcej miejskiej przestrzeni.
-  //         </p>
-  //         <p>
-  //           <em>NOCTURINE</em> to zbiór powiązanych fabularnie opowiadań, który
-  //           zabiera czytelnika na gatunkowo niepokorną podróż z&nbsp;Poznania
-  //           pożeranego przez ośmiobitową amebę przez dom złożony
-  //           z&nbsp;niezliczonych pięter i&nbsp;nawiedzane przez manekiny
-  //           domostwo aż po wnętrze ludzkiego ciała. Każdy z&nbsp;sześciu tekstów
-  //           ma innego narratora, który snuje opowieść w&nbsp;gorączkowym, lecz
-  //           melancholijnym stylu.
-  //         </p>
-  //       </div>
-  //     ),
-  //   },
-  //   orderDetails: {
-  //     // en: (
-  //     //   <p>
-  //     //     You can pre-order <em>NOCTURINE</em> from{" "}
-  //     //     <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
-  //     //       <strong>FATHOM BOOKS</strong>
-  //     //     </a>
-  //     //     .
-  //     //   </p>
-  //     // ),
-  //     // pl: (
-  //     //   <p>
-  //     //     <em>NOCTURINE</em> można zamówić w&nbsp;przedsprzedaży na stronie{" "}
-  //     //     <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
-  //     //       <strong>FATHOM BOOKS</strong>
-  //     //     </a>
-  //     //     .
-  //     //   </p>
-  //     // ),
-  //     en: null,
-  //     pl: null,
-  //   },
-  //   quotes: {
-  //     en: [
-  //       {
-  //         quote: (
-  //           <div>
-  //             Drobnik wowed us with his free-wheeling sentence structure +
-  //             utterly unique vision.
-  //           </div>
-  //         ),
-  //         source: "FATHOM BOOKS, the publisher",
-  //       },
-  //       {
-  //         quote: (
-  //           <div>
-  //             To say <em>Nocturine</em> is oneiric is an understatement — it’s a
-  //             psychedelic. It kicks in slowly, swaying you from the very first
-  //             sentences. Hypnotic phrase. Beautiful!
-  //           </div>
-  //         ),
-  //         source: "Patrycja Janowska, LAMPA 1–2/2012",
-  //       },
-  //       {
-  //         quote: (
-  //           <div>
-  //             Drobnik creates an evocative, oppressive mood through the
-  //             dangerous unknown; subtly, with a single shift outside the
-  //             boundaries of what we are used to.
-  //           </div>
-  //         ),
-  //         source: "Ilona Witkowska, ODRA 5/2012",
-  //       },
-  //       {
-  //         quote: (
-  //           <div>
-  //             Drobnik’s strategy is to combine a fast-paced plot typical of
-  //             popular literature with the highly metaphorical language of
-  //             literary fiction.
-  //           </div>
-  //         ),
-  //         source: "Rafał Derda, ELEWATOR 2/2012",
-  //       },
-  //       {
-  //         quote: (
-  //           <div>
-  //             I’m not going to build suspense. Let me say it right away: this
-  //             book will drag you in with its thousand tentacles (everyone gets
-  //             their own, according to their liking).
-  //           </div>
-  //         ),
-  //         source: "Marta Sawicka-Danielak, BLUSZCZ 2/2012",
-  //       },
-  //     ],
-  //     pl: [
-  //       {
-  //         quote: (
-  //           <div>
-  //             Drobnik zachwycił nas swoją beztroską składnią i&nbsp;absolutnie
-  //             wyjątkową wizją.
-  //           </div>
-  //         ),
-  //         source: "FATHOM BOOKS, wydawca",
-  //       },
-  //       {
-  //         quote: (
-  //           <div>
-  //             Powiedzieć, że „Nocturine” jest oniryczne, to za mało — to
-  //             psychodelik jest. Wchodzi miękko, od pierwszych zdań już kołysze.
-  //             Fraza hipnotyczna. Coś pięknego!
-  //           </div>
-  //         ),
-  //         source: "Patrycja Janowska, LAMPA 1–2/2012",
-  //       },
-  //       {
-  //         quote: (
-  //           <div>
-  //             Drobnik tworzy sugestywnie nastrój osaczenia przez groźne
-  //             nieznane; subtelnie, jednym przesunięciem poza ramy naszych
-  //             przyzwyczajeń.
-  //           </div>
-  //         ),
-  //         source: "Ilona Witkowska, ODRA 5/2012",
-  //       },
-  //       {
-  //         quote: (
-  //           <div>
-  //             Przyjęta przez Drobnika strategia polega na połączeniu
-  //             przynależnej literaturze popularnej wartkości fabuły
-  //             z&nbsp;gęstym, mocno zmetaforyzowanym językiem literatury pięknej.
-  //           </div>
-  //         ),
-  //         source: "Rafał Derda, ELEWATOR 2/2012",
-  //       },
-  //       {
-  //         quote: (
-  //           <div>
-  //             Nie będę budowała suspensu. Zdradzę już na wstępie: ta książka
-  //             wciągnie was tysiącem swoim macek (każdemu inna, wedle gustu).
-  //           </div>
-  //         ),
-  //         source: "Marta Sawicka-Danielak, BLUSZCZ 2/2012",
-  //       },
-  //     ],
-  //   },
-  // },
   {
     id: "vostok",
     // excerptId: "vostok",
@@ -1590,7 +1383,10 @@ export const BOOKS = [
       en: "Vostok",
       pl: "Vostok",
     },
-    displayOnMain: false,
+    displayOnMain: {
+      en: false,
+      pl: false,
+    },
     cover: vostokCover,
     colorCover: vostokCoverColor,
     url: null,
@@ -1734,7 +1530,10 @@ export const BOOKS = [
       en: "Riverine",
       pl: "Riverine",
     },
-    displayOnMain: true,
+    displayOnMain: {
+      en: true,
+      pl: true,
+    },
     cover: riverineCover,
     colorCover: riverineCoverColor,
     url: RIVERINE_URL,
@@ -1890,6 +1689,197 @@ export const BOOKS = [
             </div>
           ),
           source: "Ross Showalter",
+        },
+      ],
+    },
+  },
+  {
+    id: "nocturine",
+    excerptId: "nocturine",
+    theme: "nocturine",
+    title: {
+      en: "Nocturine",
+      pl: "Nocturine",
+    },
+    displayOnMain: {
+      en: true,
+      pl: true,
+    },
+    cover: nocturineCover,
+    colorCover: nocturineCoverColor,
+    url: NOCTURINE_URL,
+    slogan: {
+      en: (
+        <div>
+          Novella forthcoming in September 2025 from{" "}
+          <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
+            <strong>ALIEN BUDDHA PRESS</strong>
+          </a>
+        </div>
+      ),
+      pl: (
+        <div>
+          Minipowieść, która ukaże się we wrześniu 2025&nbsp;r. nakładem
+          wydawcnitwa{" "}
+          <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
+            <strong>ALIEN BUDDHA PRESS</strong>
+          </a>
+        </div>
+      ),
+    },
+    orderButton: {
+      en: null,
+      pl: null,
+    },
+    shopList: null,
+    body: {
+      en: (
+        <div>
+          <p>
+            The end of the world starts like an ad campaign. When black cubes
+            appear above the city of Poznań, some think it’s just another mobile
+            network operator entering the market. These include Mietek, an
+            unemployed man in his twenties, suddenly abandoned by his boyfriend.
+            Soon his best friend also disappears while the black cubes in the
+            sky start to multiply, taking up more and more of the urban space.
+          </p>
+          <p>
+            <em>NOCTURINE</em> is a collection of interlinked stories that takes
+            you on a genre-bending journey from contemporary Poznań devoured by
+            an 8-bit amoeba to a house comprised of countless floors, to a
+            homestead haunted by dummies, to the inside of a human body. Each of
+            six pieces is told by a different narrator in a frantic yet
+            melancholic style.
+          </p>
+        </div>
+      ),
+      pl: (
+        <div>
+          <p>
+            Koniec świata zaczyna się jak kampania reklamowa. Gdy nad Poznaniem
+            zawisają czarne sześciany, niektórzy sądzą, że to po prostu kolejny
+            operator sieci komórkowej wchodzi na rynek. Do tej grupy należy
+            Mietek, bezrobotny dwudziestoparolatek, którego nagle opuszcza
+            chłopak. Niedługa jego najlepsza przyjaciółka także znika, podczas
+            gdy czarne sześciany na niebie zaczynają się mnożyć, zabierając
+            coraz więcej miejskiej przestrzeni.
+          </p>
+          <p>
+            <em>NOCTURINE</em> to zbiór powiązanych fabularnie opowiadań, który
+            zabiera czytelnika na gatunkowo niepokorną podróż z&nbsp;Poznania
+            pożeranego przez ośmiobitową amebę przez dom złożony
+            z&nbsp;niezliczonych pięter i&nbsp;nawiedzane przez manekiny
+            domostwo aż po wnętrze ludzkiego ciała. Każdy z&nbsp;sześciu tekstów
+            ma innego narratora, który snuje opowieść w&nbsp;gorączkowym, lecz
+            melancholijnym stylu.
+          </p>
+        </div>
+      ),
+    },
+    orderDetails: {
+      // en: (
+      //   <p>
+      //     You can pre-order <em>NOCTURINE</em> from{" "}
+      //     <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
+      //       <strong>ALIEN BUDDHA PRESS</strong>
+      //     </a>
+      //     .
+      //   </p>
+      // ),
+      // pl: (
+      //   <p>
+      //     <em>NOCTURINE</em> można zamówić w&nbsp;przedsprzedaży na stronie{" "}
+      //     <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
+      //       <strong>ALIEN BUDDHA PRESS</strong>
+      //     </a>
+      //     .
+      //   </p>
+      // ),
+      en: null,
+      pl: null,
+    },
+    quotes: {
+      en: [
+        {
+          quote: (
+            <div>
+              To say <em>Nocturine</em> is oneiric is an understatement — it’s a
+              psychedelic. It kicks in slowly, swaying you from the very first
+              sentences. Hypnotic phrase. Beautiful!
+            </div>
+          ),
+          source: "Patrycja Janowska, LAMPA",
+        },
+        {
+          quote: (
+            <div>
+              Drobnik creates an evocative, oppressive mood through the
+              dangerous unknown; subtly, with a single shift outside the
+              boundaries of what we are used to.
+            </div>
+          ),
+          source: "Ilona Witkowska, ODRA",
+        },
+        {
+          quote: (
+            <div>
+              Drobnik’s strategy is to combine a fast-paced plot typical of
+              popular literature with the highly metaphorical language of
+              literary fiction.
+            </div>
+          ),
+          source: "Rafał Derda, ELEWATOR",
+        },
+        {
+          quote: (
+            <div>
+              I’m not going to build suspense. Let me say it right away: this
+              book will drag you in with its thousand tentacles (everyone gets
+              their own, according to their liking).
+            </div>
+          ),
+          source: "Marta Sawicka-Danielak, BLUSZCZ",
+        },
+      ],
+      pl: [
+        {
+          quote: (
+            <div>
+              Powiedzieć, że „Nocturine” jest oniryczne, to za mało — to
+              psychodelik jest. Wchodzi miękko, od pierwszych zdań już kołysze.
+              Fraza hipnotyczna. Coś pięknego!
+            </div>
+          ),
+          source: "Patrycja Janowska, LAMPA",
+        },
+        {
+          quote: (
+            <div>
+              Drobnik tworzy sugestywnie nastrój osaczenia przez groźne
+              nieznane; subtelnie, jednym przesunięciem poza ramy naszych
+              przyzwyczajeń.
+            </div>
+          ),
+          source: "Ilona Witkowska, ODRA",
+        },
+        {
+          quote: (
+            <div>
+              Przyjęta przez Drobnika strategia polega na połączeniu
+              przynależnej literaturze popularnej wartkości fabuły
+              z&nbsp;gęstym, mocno zmetaforyzowanym językiem literatury pięknej.
+            </div>
+          ),
+          source: "Rafał Derda, ELEWATOR",
+        },
+        {
+          quote: (
+            <div>
+              Nie będę budowała suspensu. Zdradzę już na wstępie: ta książka
+              wciągnie was tysiącem swoim macek (każdemu inna, wedle gustu).
+            </div>
+          ),
+          source: "Marta Sawicka-Danielak, BLUSZCZ",
         },
       ],
     },
@@ -2055,9 +2045,7 @@ export const WEBSITE_TEXT_SHARED = {
       button: "Rozumiem",
     },
   },
-  copyright: (
-    <React.Fragment>&copy;&nbsp;2019–2025 Łukasz Drobnik</React.Fragment>
-  ),
+  copyright: <React.Fragment>&copy;&nbsp;2025 Łukasz Drobnik</React.Fragment>,
 };
 
 //text for the About section
