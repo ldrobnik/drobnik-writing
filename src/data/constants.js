@@ -1702,7 +1702,7 @@ export const BOOKS = [
     },
     cover: nocturineCover,
     colorCover: nocturineCoverColor,
-    url: NOCTURINE_URL,
+    url: NOCTURINE_LOCAL_URL,
     slogan: {
       en: (
         <div>
@@ -2058,9 +2058,13 @@ export const WEBSITE_TEXT_ABOUT = {
         <div>
           <p>
             Łukasz Drobnik is a Polish fiction writer writing mostly in English,
-            author of genre-bending books, <BoldText>VOSTOK</BoldText> and{" "}
+            author of genre-bending books, <BoldText>VOSTOK</BoldText>,{" "}
             <AnchorLink href="#riverine" offset="60px">
               <strong>RIVERINE</strong>
+            </AnchorLink>
+            , and{" "}
+            <AnchorLink href="#nocturine" offset="60px">
+              <strong>NOCTURINE</strong>
             </AnchorLink>
             , as well as shorter prose published in Split Lip Magazine, HAD,
             Fractured Lit, Atticus Review, Quarterly West, Pithead Chapel,
@@ -2089,10 +2093,13 @@ export const WEBSITE_TEXT_ABOUT = {
         <div>
           <p>
             Łukasz Drobnik to polski prozaik piszący głównie po angielsku, autor
-            niejednoznacznych gatunkowo książek, <BoldText>VOSTOK</BoldText>{" "}
-            i&nbsp;
+            niejednoznacznych gatunkowo książek, <BoldText>VOSTOK</BoldText>,{" "}
             <AnchorLink href="#riverine" offset="60px">
               <strong>RIVERINE</strong>
+            </AnchorLink>{" "}
+            i&nbsp;
+            <AnchorLink href="#nocturine" offset="60px">
+              <strong>NOCTURINE</strong>
             </AnchorLink>
             , a&nbsp;także krótszych utworów opublikowanych m.in. w&nbsp;Split
             Lip Magazine, HAD, Fractured Lit, Atticus Review, Quarterly West,
@@ -2316,14 +2323,22 @@ export const WEBSITE_TEXT_TEXTS = {
               rel="noopener noreferrer"
             >
               VOSTOK
-            </a>{" "}
-            and{" "}
+            </a>
+            ,{" "}
             <a
               href={RIVERINE_LOCAL_URL}
               target="_blank"
               rel="noopener noreferrer"
             >
               RIVERINE
+            </a>
+            , and{" "}
+            <a
+              href={NOCTURINE_LOCAL_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              NOCTURINE
             </a>
             , as well as shorter prose published in HAD,{" "}
             X&#8209;R&#8209;A&#8209;Y Literary Magazine, Fractured Lit, Atticus
@@ -2355,14 +2370,22 @@ export const WEBSITE_TEXT_TEXTS = {
               rel="noopener noreferrer"
             >
               VOSTOK
-            </a>{" "}
-            i&nbsp;
+            </a>
+            ,{" "}
             <a
-              href={VOSTOK_LOCAL_URL}
+              href={RIVERINE_LOCAL_URL}
               target="_blank"
               rel="noopener noreferrer"
             >
               RIVERINE
+            </a>{" "}
+            i&nbsp;
+            <a
+              href={NOCTURINE_LOCAL_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              NOCTURINE
             </a>
             , a&nbsp;także krótszych utworów opublikowanych m.in. w&nbsp;HAD,
             X&#8209;R&#8209;A&#8209;Y Literary Magazine, Fractured Lit, Atticus
@@ -2413,10 +2436,14 @@ export const WEBSITE_TEXT_BLOG = {
         is the author of genre-bending books,{" "}
         <a href={VOSTOK_LOCAL_URL} target="_blank" rel="noopener noreferrer">
           VOSTOK
-        </a>{" "}
-        and{" "}
+        </a>
+        ,{" "}
         <a href={RIVERINE_LOCAL_URL} target="_blank" rel="noopener noreferrer">
           RIVERINE
+        </a>
+        , and{" "}
+        <a href={NOCTURINE_LOCAL_URL} target="_blank" rel="noopener noreferrer">
+          NOCTURINE
         </a>
         , as well as shorter prose published in HAD, X&#8209;R&#8209;A&#8209;Y
         Literary Magazine, Fractured Lit, Atticus Review, Pithead Chapel, and
