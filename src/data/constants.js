@@ -775,29 +775,24 @@ export const TEXTS = {
 //List of publications used in the Pubs section
 export const PUBLICATIONS = {
   books: [
-    // {
-    //   title: "Nocturine",
-    //   year: "",
-    //   url: NOCTURINE_URL,
-    //   cover: nocturineCover,
-    //   altText: {
-    //     en: "Nocturine cover",
-    //     pl: "Okładka Nocturine",
-    //   },
-    //   descriptionPl: (
-    //     <>
-    //       Zbiór powiązanych fabularnie opowiadań, który ukaże się w 2025 r.
-    //       nakładem wydawnictwa Fathom Books
-    //     </>
-    //   ),
-    //   descriptionEn: (
-    //     <>
-    //       Collection of interlinked stories forthcoming in 2025 from Fathom
-    //       Books
-    //     </>
-    //   ),
-    //   language: "en",
-    // },
+    {
+      title: "Nocturine",
+      year: "",
+      url: NOCTURINE_LOCAL_URL,
+      cover: nocturineCover,
+      altText: {
+        en: "Nocturine cover",
+        pl: "Okładka Nocturine",
+      },
+      descriptionPl: (
+        <>
+          Minipowieść, która ukaże się w 2025 r. nakładem wydawnictwa Alien
+          Buddha Press
+        </>
+      ),
+      descriptionEn: <>Novella forthcoming in 2025 from Alien Buddha Press</>,
+      language: "en",
+    },
     {
       title: "Riverine",
       year: "2023",
@@ -1695,7 +1690,7 @@ export const BOOKS = [
   },
   {
     id: "nocturine",
-    excerptId: "nocturine",
+    excerptId: null,
     theme: "nocturine",
     title: {
       en: "Nocturine",
@@ -1744,12 +1739,11 @@ export const BOOKS = [
             sky start to multiply, taking up more and more of the urban space.
           </p>
           <p>
-            <em>NOCTURINE</em> is a collection of interlinked stories that takes
-            you on a genre-bending journey from contemporary Poznań devoured by
-            an 8-bit amoeba to a house comprised of countless floors, to a
-            homestead haunted by dummies, to the inside of a human body. Each of
-            six pieces is told by a different narrator in a frantic yet
-            melancholic style.
+            <em>NOCTURINE</em> is a novella that takes you on a genre-bending
+            journey from contemporary Poznań devoured by an 8-bit amoeba to a
+            house comprised of countless floors, to a homestead haunted by
+            dummies, to the inside of a human body. Each of six pieces is told
+            by a different narrator in a frantic yet melancholic style.
           </p>
         </div>
       ),
@@ -1765,13 +1759,12 @@ export const BOOKS = [
             coraz więcej miejskiej przestrzeni.
           </p>
           <p>
-            <em>NOCTURINE</em> to zbiór powiązanych fabularnie opowiadań, który
-            zabiera czytelnika na gatunkowo niepokorną podróż z&nbsp;Poznania
-            pożeranego przez ośmiobitową amebę przez dom złożony
-            z&nbsp;niezliczonych pięter i&nbsp;nawiedzane przez manekiny
-            domostwo aż po wnętrze ludzkiego ciała. Każdy z&nbsp;sześciu tekstów
-            ma innego narratora, który snuje opowieść w&nbsp;gorączkowym, lecz
-            melancholijnym stylu.
+            <em>NOCTURINE</em> to minipowieść, która zabiera czytelnika na
+            gatunkowo niepokorną podróż z&nbsp;Poznania pożeranego przez
+            ośmiobitową amebę przez dom złożony z&nbsp;niezliczonych pięter
+            i&nbsp;nawiedzane przez manekiny domostwo aż po wnętrze ludzkiego
+            ciała. Każdy z&nbsp;sześciu tekstów ma innego narratora, który snuje
+            opowieść w&nbsp;gorączkowym, lecz melancholijnym stylu.
           </p>
         </div>
       ),
