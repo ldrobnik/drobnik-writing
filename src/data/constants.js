@@ -778,7 +778,7 @@ export const PUBLICATIONS = {
     {
       title: "Nocturine",
       year: "",
-      url: NOCTURINE_LOCAL_URL,
+      url: NOCTURINE_URL,
       cover: nocturineCover,
       altText: {
         en: "Nocturine cover",
