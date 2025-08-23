@@ -26,7 +26,6 @@ import PubList from "./PubList/PubList";
 import SectionLinks from "../SectionLinks/SectionLinks";
 
 export const Pubs = (props) => {
-  console.log(props.lang, props.lang == "pl");
   //specifies whether texts in English should be displayed
   const [en, setEn] = useState(props.lang == "en");
 

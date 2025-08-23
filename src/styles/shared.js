@@ -270,12 +270,16 @@ export const Photo = styled.div`
 `;
 
 export const PhotoLink = styled.div`
-  height: 24em;
+  height: 18em;
   opacity: ${(props) => props.theme.slightlyTranslucent};
   z-index: 60;
 
   img {
     height: 100%;
+  }
+
+  @media all and (min-width: ${(props) => props.theme.mediumScr}) {
+    height: 24em;
   }
 `;
 
