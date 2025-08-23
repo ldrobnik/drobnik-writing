@@ -101,7 +101,7 @@ export const About = (props) => {
         </Suspense>
         <Suspense fallback={<SmallSpinner />}>
           <AboutSectionWrapper id="pubs">
-            <Pubs />
+            <Pubs lang={props.lang} />
           </AboutSectionWrapper>
         </Suspense>
         <Suspense fallback={<SmallSpinner />}>
