@@ -30,10 +30,11 @@ const vostokAudioCover = "vostokAudioCover.jpg";
 //Frequently used URLs
 export const NOCTURINE_URL = "http://alienbuddhapress.wordpress.com/"; //Nocturine pre-order
 export const NOCTURINE_LOCAL_URL = "https://drobnik.co/nocturine";
-
+export const NOCTURINE_AUDIO_LOCAL_URL = "https://drobnik.co/nocturine-audio";
 // export const VOSTOK_URL = "https://mybook.to/vostok-paper"; // buy Vostok
 export const VOSTOK_EBOOK_URL = "https://mybook.to/vostok-digital"; // buy Vostok ebook
 export const VOSTOK_LOCAL_URL = "https://drobnik.co/vostok";
+export const VOSTOK_AUDIO_LOCAL_URL = "https://drobnik.co/vostok-audio";
 export const VRAEDA_URL = "https://www.vraeydamedia.ca/literary"; //Vraeyda Literary website
 export const RIVERINE_URL =
   "https://vegetarianalcoholicpress.com/titles/ukasz-drobnik-riverine"; // Riverine order
@@ -2430,23 +2431,23 @@ export const WEBSITE_TEXT_ABOUT = {
           <p>
             Łukasz Drobnik to polski prozaik piszący głównie po angielsku, autor
             eksperymentalnej fantastyki. Eksperymenty te to m.in. apokaliptyczna
-            fantasy, w której każdy akapit to jedno wielokrotnie złożone zdanie
-            (minipowieść{" "}
-            <AnchorLink href="#nocturine" offset="60px">
+            fantasy z&nbsp;literackim zacięciem (minipowieść{" "}
+            <AnchorLink href="#nocturine-audio" offset="60px">
               <strong>NOCTURINE</strong>
             </AnchorLink>
             ), science fiction ukryte za fasadą realistycznego kryminału
-            (powieść <BoldText>VOSTOK</BoldText>) czy formalnie odważna proza z
-            elementami surrealizmu i fantastyki (zbiór flash fiction{" "}
-            <AnchorLink href="#riverine" offset="60px">
-              <strong>RIVERINE</strong>
+            (powieść{" "}
+            <AnchorLink href="#vostok-audio" offset="60px">
+              <strong>VOSTOK</strong>
             </AnchorLink>
-            , dostępny tylko po angielsku). Publikował m.in. w&nbsp;Split Lip
-            Magazine, HAD, Fractured Lit, Atticus Review, Quarterly West,
-            Pithead Chapel, Lighthouse, Foglifter, STORGY, BULL oraz
-            X&#8209;R&#8209;A&#8209;Y Literary Magazine. Ma na koncie miejsce na
-            longliście Wigleaf Top 50 Very Short Fictions i&nbsp;nominację do
-            Pushcart Prize. Mieszka w&nbsp;Krakowie.
+            ) czy formalnie odważna proza z elementami surrealizmu i fantastyki
+            (zbiór flash fiction <BoldText>RIVERINE</BoldText>, dostępny tylko
+            po angielsku). Publikował m.in. w&nbsp;Split Lip Magazine, HAD,
+            Fractured Lit, Atticus Review, Quarterly West, Pithead Chapel,
+            Lighthouse, Foglifter, STORGY, BULL oraz X&#8209;R&#8209;A&#8209;Y
+            Literary Magazine. Ma na koncie miejsce na longliście Wigleaf Top 50
+            Very Short Fictions i&nbsp;nominację do Pushcart Prize. Mieszka
+            w&nbsp;Krakowie.
           </p>
           <p>
             Poniżej można znaleźć{" "}
@@ -2705,7 +2706,7 @@ export const WEBSITE_TEXT_TEXTS = {
           <React.Fragment>
             to autor eksperymentalnej fantastyki, w&nbsp;tym książek{" "}
             <a
-              href={VOSTOK_LOCAL_URL}
+              href={VOSTOK_AUDIO_LOCAL_URL}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -2721,7 +2722,7 @@ export const WEBSITE_TEXT_TEXTS = {
             </a>{" "}
             i&nbsp;
             <a
-              href={NOCTURINE_LOCAL_URL}
+              href={NOCTURINE_AUDIO_LOCAL_URL}
               target="_blank"
               rel="noopener noreferrer"
             >
