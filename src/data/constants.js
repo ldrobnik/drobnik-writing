@@ -2313,28 +2313,28 @@ export const WEBSITE_TEXT_SHARED = {
         </React.Fragment>
       ),
     },
-    blog: {
-      en: (
-        <React.Fragment>
-          <FontAwesomeIcon
-            icon={faStickyNote}
-            aria-hidden="true"
-            title="Read the blog"
-          ></FontAwesomeIcon>
-          <span className="sr-only">Read the blog</span>
-        </React.Fragment>
-      ),
-      pl: (
-        <React.Fragment>
-          <FontAwesomeIcon
-            icon={faStickyNote}
-            aria-hidden="true"
-            title="Czytaj blog (po angielsku)"
-          ></FontAwesomeIcon>
-          <span className="sr-only">Czytaj blog (po angielsku)</span>
-        </React.Fragment>
-      ),
-    },
+    // blog: {
+    //   en: (
+    //     <React.Fragment>
+    //       <FontAwesomeIcon
+    //         icon={faStickyNote}
+    //         aria-hidden="true"
+    //         title="Read the blog"
+    //       ></FontAwesomeIcon>
+    //       <span className="sr-only">Read the blog</span>
+    //     </React.Fragment>
+    //   ),
+    //   pl: (
+    //     <React.Fragment>
+    //       <FontAwesomeIcon
+    //         icon={faStickyNote}
+    //         aria-hidden="true"
+    //         title="Czytaj blog (po angielsku)"
+    //       ></FontAwesomeIcon>
+    //       <span className="sr-only">Czytaj blog (po angielsku)</span>
+    //     </React.Fragment>
+    //   ),
+    // },
   },
   subpagelinks: {
     top: {
