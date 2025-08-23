@@ -46,6 +46,10 @@ export const App = (props) => {
     largeScr: "1280px",
     extraLargeScr: "1690px",
 
+    //filters
+    contrast: "1.3",
+    brightness: "1.1",
+
     //opacity
     slightlyTranslucent: "0.7",
     translucent: "0.5",

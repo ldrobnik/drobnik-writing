@@ -5,6 +5,7 @@ import { connect } from "react-redux";
 import { Waypoint } from "react-waypoint";
 import { setPageReload } from "../../../actions";
 import {
+  GrayScale,
   SectionSeparator,
   SmallSeparator,
   FADE_DURATION,
@@ -74,11 +75,13 @@ export const Book = (props) => {
           subtitle=""
         />
         <SmallSeparator />
-        <CentredPhoto
-          src={BOOKS[props.book].cover}
-          alt="Book cover"
-          link={BOOKS[props.book].url}
-        />
+        <GrayScale>
+          <CentredPhoto
+            src={BOOKS[props.book].cover}
+            alt="Book cover"
+            link={BOOKS[props.book].url}
+          />
+        </GrayScale>
         <BookSlogan>{BOOKS[props.book].slogan[props.lang]}</BookSlogan>
       </AnimatedContent>
       <Waypoint onEnter={showorderBtn} />

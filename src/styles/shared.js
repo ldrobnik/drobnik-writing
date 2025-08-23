@@ -97,6 +97,11 @@ export const InvisibleSeparator = styled.div`
   height: 3em;
 `;
 
+export const GrayScale = styled.div`
+  filter: grayscale(100%) contrast(${(props) => props.theme.contrast})
+    brightness(${(props) => props.theme.brightness});
+`;
+
 /* NavBar.js */
 
 export const NavBarWrapper = styled.div`
