@@ -66,7 +66,7 @@ export const BookDetails = (props) => {
       <AnimatedContent pose={!props.reload ? "visible" : "hidden"}>
         <BookPageTopPanel>
           <BookPhoto
-            src={BOOKS[props.book].colorCover}
+            src={BOOKS[props.book].cover}
             alt="Book cover"
             link={BOOKS[props.book].url}
           />

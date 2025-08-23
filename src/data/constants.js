@@ -20,12 +20,9 @@ import { BoldText } from "../styles/shared";
 
 //file names for book covers
 const nocturineCover = "nocturineCover.jpg";
-const nocturineCoverColor = "nocturineCoverColor.jpg";
 const nocCunCover = "nocCunCover.jpg";
 const vostokCover = "vostokCover.jpg";
-const vostokCoverColor = "vostokCoverColor.jpg";
 const riverineCover = "riverineCover.jpg";
-const riverineCoverColor = "riverineCoverColor.jpg";
 const nocturineAudioCover = "nocturineAudioCover.jpg";
 const vostokAudioCover = "vostokAudioCover.jpg";
 // const tbaCover = "tbaCover.jpg";
@@ -1415,7 +1412,6 @@ export const BOOKS = [
       pl: false,
     },
     cover: vostokCover,
-    colorCover: vostokCover,
     url: null,
     slogan: {
       en: (
@@ -1559,10 +1555,9 @@ export const BOOKS = [
     },
     displayOnMain: {
       en: true,
-      pl: true,
+      pl: false,
     },
     cover: riverineCover,
-    colorCover: riverineCover,
     url: RIVERINE_URL,
     slogan: {
       en: (
@@ -1730,10 +1725,9 @@ export const BOOKS = [
     },
     displayOnMain: {
       en: true,
-      pl: true,
+      pl: false,
     },
     cover: nocturineCover,
-    colorCover: nocturineCoverColor,
     url: NOCTURINE_URL,
     slogan: {
       en: (
@@ -1820,6 +1814,312 @@ export const BOOKS = [
       //     .
       //   </p>
       // ),
+      en: null,
+      pl: null,
+    },
+    quotes: {
+      en: [
+        {
+          quote: (
+            <div>
+              To say <em>Nocturine</em> is oneiric is an understatement — it’s a
+              psychedelic. It kicks in slowly, swaying you from the very first
+              sentences. Hypnotic phrase. Beautiful!
+            </div>
+          ),
+          source: "Patrycja Janowska, LAMPA",
+        },
+        {
+          quote: (
+            <div>
+              Drobnik creates an evocative, oppressive mood through the
+              dangerous unknown; subtly, with a single shift outside the
+              boundaries of what we are used to.
+            </div>
+          ),
+          source: "Ilona Witkowska, ODRA",
+        },
+        {
+          quote: (
+            <div>
+              Drobnik’s strategy is to combine a fast-paced plot typical of
+              popular literature with the highly metaphorical language of
+              literary fiction.
+            </div>
+          ),
+          source: "Rafał Derda, ELEWATOR",
+        },
+        {
+          quote: (
+            <div>
+              I’m not going to build suspense. Let me say it right away: this
+              book will drag you in with its thousand tentacles (everyone gets
+              their own, according to their liking).
+            </div>
+          ),
+          source: "Marta Sawicka-Danielak, BLUSZCZ",
+        },
+      ],
+      pl: [
+        {
+          quote: (
+            <div>
+              Powiedzieć, że „Nocturine” jest oniryczne, to za mało — to
+              psychodelik jest. Wchodzi miękko, od pierwszych zdań już kołysze.
+              Fraza hipnotyczna. Coś pięknego!
+            </div>
+          ),
+          source: "Patrycja Janowska, LAMPA",
+        },
+        {
+          quote: (
+            <div>
+              Drobnik tworzy sugestywnie nastrój osaczenia przez groźne
+              nieznane; subtelnie, jednym przesunięciem poza ramy naszych
+              przyzwyczajeń.
+            </div>
+          ),
+          source: "Ilona Witkowska, ODRA",
+        },
+        {
+          quote: (
+            <div>
+              Przyjęta przez Drobnika strategia polega na połączeniu
+              przynależnej literaturze popularnej wartkości fabuły
+              z&nbsp;gęstym, mocno zmetaforyzowanym językiem literatury pięknej.
+            </div>
+          ),
+          source: "Rafał Derda, ELEWATOR",
+        },
+        {
+          quote: (
+            <div>
+              Nie będę budowała suspensu. Zdradzę już na wstępie: ta książka
+              wciągnie was tysiącem swoim macek (każdemu inna, wedle gustu).
+            </div>
+          ),
+          source: "Marta Sawicka-Danielak, BLUSZCZ",
+        },
+      ],
+    },
+  },
+  {
+    id: "vostok-audio",
+    // excerptId: "vostok",
+    theme: "vostok",
+    title: {
+      en: "Vostok",
+      pl: "Vostok",
+    },
+    displayOnMain: {
+      en: false,
+      pl: true,
+    },
+    cover: vostokAudioCover,
+    url: VOSTOK_AUDIO_URL,
+    slogan: {
+      en: (
+        <div>
+          Audiobook published in 2025 by <strong>KMH MEDIA GROUP</strong>
+        </div>
+      ),
+      pl: (
+        <div>
+          Audiobook wydany w&nbsp;2025&nbsp;roku przez{" "}
+          <strong>KMH MEDIA GROUP</strong>
+        </div>
+      ),
+    },
+    orderButton: {
+      en: null,
+      pl: null,
+    },
+    shopList: null,
+    body: {
+      en: (
+        <div>
+          <p>
+            Poznań, Poland. The middle of a harsh winter. Weronika is in love
+            with her best friend Wu, who has just told her about his new
+            boyfriend. They spend most evenings drinking away their problems
+            with a bunch of like-minded pub-goers. There’s been a terrorist
+            attack. A girl gets murdered with a war scythe. The reality reveals
+            a whole new layer when the friends mention a place called Vostok
+            City.
+          </p>
+          <p>
+            On the surface, <em>VOSTOK</em> is a murder story with a literary
+            bent. Dig deeper, and it will reveal itself as science fiction that
+            only pretends to play by the rules of realism.
+          </p>
+        </div>
+      ),
+      pl: (
+        <div>
+          <p>
+            Poznań, środek mroźnej zimy. Weronika kocha się w&nbsp;swoim
+            najlepszym przyjacielu Wu, który właśnie przedstawił jej swojego
+            nowego chłopaka. Większość wieczorów przyjaciele spędzają
+            w&nbsp;ulubionych knajpach, zapijając problemy z&nbsp;grupką
+            znajomych. Niesie się wieść o&nbsp;ataku terrorystycznym. Dziewczyna
+            ginie raniona kosą bojową. Rzeczywistość odkrywa całkiem nową
+            warstwę, gdy znajomi wspominają o&nbsp;miejscu zwanym Vostok City.
+          </p>
+          <p>
+            Na pierwszy rzut oka <em>VOSTOK</em> to kryminał z&nbsp;literackim
+            zacięciem. Gdy jednak zajrzy się głębiej, powieść okazuje się
+            science fiction, które tylko z&nbsp;pozoru gra według reguł
+            realizmu.
+          </p>
+        </div>
+      ),
+    },
+    orderDetails: {
+      en: null,
+      pl: null,
+    },
+    quotes: {
+      en: [
+        {
+          quote: (
+            <div>
+              One of the most imaginative novels I’ve read (…) The right mix of
+              experimental, multi-formic prose and a world built beyond the
+              bizarre as one keeps reading.
+            </div>
+          ),
+          source: "Sapha Burnell, author of NEON Lieben",
+        },
+        {
+          quote: (
+            <div>
+              If you are looking for (…) a mystery that builds page to page with
+              a revealing crescendo that washes over you helplessly, then{" "}
+              <em>Vostok</em> is the novel for you.
+            </div>
+          ),
+          source: "R.L. Arenz III, author of Aegis",
+        },
+        {
+          quote: (
+            <div>
+              <em>Vostok</em>’s prose is of a singular beauty and purity. I
+              cannot stop diving back into it.
+            </div>
+          ),
+          source: "VRAEYDA LITERARY, the publisher of the English edition",
+        },
+      ],
+      pl: [
+        {
+          quote: (
+            <div>
+              Jedna z&nbsp;najbardziej pomysłowych powieści, jakie czytałam (…)
+              Odpowiednia mieszanka eksperymentalnej, wielopostaciowej prozy
+              i&nbsp;świata powieści, który w&nbsp;miarę czytania przekracza
+              granice dziwaczności.
+            </div>
+          ),
+          source:
+            "Sapha Burnell, autorka książek NEON Lieben, Usurper Kings, Son of Abel",
+        },
+        {
+          quote: (
+            <div>
+              Jeśli szukasz (…) kryminału, który strona po stronie buduje
+              tajemnicę, by ją rozwiązać w spadającym znienacka crescendo,{" "}
+              <em>Vostok</em> jest powieścią dla ciebie.
+            </div>
+          ),
+          source: "R.L. Arenz III, autor powieści Aegis",
+        },
+        {
+          quote: (
+            <div>
+              <em>Vostok</em> to proza o&nbsp;wyjątkowej urodzie
+              i&nbsp;czystości. Nie mogę przestać do niej wracać.
+            </div>
+          ),
+          source: "VRAEYDA LITERARY, wydawca angielskiej wersji",
+        },
+      ],
+    },
+  },
+  {
+    id: "nocturine-audio",
+    excerptId: null,
+    theme: "nocturine",
+    title: {
+      en: "Nocturine",
+      pl: "Nocturine",
+    },
+    displayOnMain: {
+      en: false,
+      pl: true,
+    },
+    cover: nocturineAudioCover,
+    url: NOCTURINE_AUDIO_URL,
+    slogan: {
+      en: (
+        <div>
+          Audiobook published in 2025 by <strong>KMH MEDIA GROUP</strong>
+        </div>
+      ),
+      pl: (
+        <div>
+          Audiobook wydany w&nbsp;2025&nbsp;roku przez{" "}
+          <strong>KMH MEDIA GROUP</strong>
+        </div>
+      ),
+    },
+    orderButton: {
+      en: null,
+      pl: null,
+    },
+    shopList: null,
+    body: {
+      en: (
+        <div>
+          <p>
+            The end of the world starts like an ad campaign. When black cubes
+            appear above the city of Poznań, some think it’s just another mobile
+            network operator entering the market. These include Mietek, an
+            unemployed man in his twenties, suddenly abandoned by his boyfriend.
+            Soon his best friend also disappears while the black cubes in the
+            sky start to multiply, taking up more and more of the urban space.
+          </p>
+          <p>
+            <em>NOCTURINE</em> is a novella that takes you on a genre-bending
+            journey from contemporary Poznań devoured by an 8-bit amoeba to a
+            house comprised of countless floors, to a homestead haunted by
+            dummies, to the inside of a human body. Each of six pieces is told
+            by a different narrator in a frantic yet melancholic style.
+          </p>
+        </div>
+      ),
+      pl: (
+        <div>
+          <p>
+            Koniec świata zaczyna się jak kampania reklamowa. Gdy nad Poznaniem
+            zawisają czarne sześciany, niektórzy sądzą, że to po prostu kolejny
+            operator sieci komórkowej wchodzi na rynek. Do tej grupy należy
+            Mietek, bezrobotny dwudziestoparolatek, którego nagle opuszcza
+            chłopak. Niedługa jego najlepsza przyjaciółka także znika, podczas
+            gdy czarne sześciany na niebie zaczynają się mnożyć, zabierając
+            coraz więcej miejskiej przestrzeni.
+          </p>
+          <p>
+            <em>NOCTURINE</em> to minipowieść, która zabiera czytelnika na
+            gatunkowo niepokorną podróż z&nbsp;Poznania pożeranego przez
+            ośmiobitową amebę przez dom złożony z&nbsp;niezliczonych pięter
+            i&nbsp;nawiedzane przez manekiny domostwo aż po wnętrze ludzkiego
+            ciała. Każdy z&nbsp;sześciu tekstów ma innego narratora, który snuje
+            opowieść w&nbsp;gorączkowym, lecz melancholijnym stylu.
+          </p>
+        </div>
+      ),
+    },
+    orderDetails: {
       en: null,
       pl: null,
     },
