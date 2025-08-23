@@ -1383,7 +1383,7 @@ export const BOOKS = [
       pl: false,
     },
     cover: vostokCover,
-    colorCover: vostokCoverColor,
+    colorCover: vostokCover,
     url: null,
     slogan: {
       en: (
@@ -1530,7 +1530,7 @@ export const BOOKS = [
       pl: true,
     },
     cover: riverineCover,
-    colorCover: riverineCoverColor,
+    colorCover: riverineCover,
     url: RIVERINE_URL,
     slogan: {
       en: (
@@ -2058,20 +2058,24 @@ export const WEBSITE_TEXT_ABOUT = {
         <div>
           <p>
             Łukasz Drobnik is a Polish fiction writer writing mostly in English,
-            author of genre-bending books, <BoldText>VOSTOK</BoldText>,{" "}
-            <AnchorLink href="#riverine" offset="60px">
-              <strong>RIVERINE</strong>
-            </AnchorLink>
-            , and{" "}
+            author of experimental speculative fiction. The experiments include
+            apocalyptic fantasy in breathless paragraphs (novella{" "}
             <AnchorLink href="#nocturine" offset="60px">
               <strong>NOCTURINE</strong>
             </AnchorLink>
-            , as well as shorter prose published in Split Lip Magazine, HAD,
-            Fractured Lit, Atticus Review, Quarterly West, Pithead Chapel,
-            Lighthouse, STORGY, BULL, Foglifter, X&#8209;R&#8209;A&#8209;Y
-            Literary Magazine, and elsewhere. His writing was longlisted for the
-            Wigleaf Top 50 Very Short Fictions and nominated for the Pushcart
-            Prize. He lives in Kraków, Poland.
+            ), formally daring literary fiction with surreal and speculative
+            elements (flash fiction collection{" "}
+            <AnchorLink href="#riverine" offset="60px">
+              <strong>RIVERINE</strong>
+            </AnchorLink>
+            ), and science fiction hiding under the veneer of a realistic murder
+            story (novel <BoldText>VOSTOK</BoldText>, out of print). His words
+            were featured in Split Lip Magazine, HAD, Fractured Lit, Atticus
+            Review, Quarterly West, Pithead Chapel, Lighthouse, STORGY, BULL,
+            Foglifter, X&#8209;R&#8209;A&#8209;Y Literary Magazine, and
+            elsewhere. His writing was longlisted for the Wigleaf Top 50 Very
+            Short Fictions and nominated for the Pushcart Prize. He lives in
+            Kraków, Poland.
           </p>
           <p>
             Below you can find a{" "}
@@ -2093,16 +2097,20 @@ export const WEBSITE_TEXT_ABOUT = {
         <div>
           <p>
             Łukasz Drobnik to polski prozaik piszący głównie po angielsku, autor
-            niejednoznacznych gatunkowo książek, <BoldText>VOSTOK</BoldText>,{" "}
-            <AnchorLink href="#riverine" offset="60px">
-              <strong>RIVERINE</strong>
-            </AnchorLink>{" "}
-            i&nbsp;
+            eksperymentalnej fantastyki. Eksperymenty te to m.in. apokaliptyczna
+            fantasy, w której każdy akapit to jedno wielokrotnie złożone zdanie
+            (minipowieść{" "}
             <AnchorLink href="#nocturine" offset="60px">
               <strong>NOCTURINE</strong>
             </AnchorLink>
-            , a&nbsp;także krótszych utworów opublikowanych m.in. w&nbsp;Split
-            Lip Magazine, HAD, Fractured Lit, Atticus Review, Quarterly West,
+            ), science fiction ukryte za fasadą realistycznego kryminału
+            (powieść <BoldText>VOSTOK</BoldText>) czy formalnie odważna proza z
+            elementami surrealizmu i fantastyki (zbiór flash fiction{" "}
+            <AnchorLink href="#riverine" offset="60px">
+              <strong>RIVERINE</strong>
+            </AnchorLink>
+            , dostępny tylko po angielsku). Publikował m.in. w&nbsp;Split Lip
+            Magazine, HAD, Fractured Lit, Atticus Review, Quarterly West,
             Pithead Chapel, Lighthouse, Foglifter, STORGY, BULL oraz
             X&#8209;R&#8209;A&#8209;Y Literary Magazine. Ma na koncie miejsce na
             longliście Wigleaf Top 50 Very Short Fictions i&nbsp;nominację do
@@ -2316,7 +2324,7 @@ export const WEBSITE_TEXT_TEXTS = {
         ],
         content: (
           <React.Fragment>
-            is the author of genre-bending books,{" "}
+            is the author of experimental speculative books,{" "}
             <a
               href={VOSTOK_LOCAL_URL}
               target="_blank"
@@ -2363,7 +2371,7 @@ export const WEBSITE_TEXT_TEXTS = {
         ],
         content: (
           <React.Fragment>
-            to autor niejednoznacznych gatunkowo książek,{" "}
+            to autor eksperymentalnej fantastyki, w&nbsp;tym książek{" "}
             <a
               href={VOSTOK_LOCAL_URL}
               target="_blank"
