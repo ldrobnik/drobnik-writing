@@ -1906,7 +1906,7 @@ export const BOOKS = [
   {
     id: "vostok-audio",
     // excerptId: "vostok",
-    theme: "vostok",
+    theme: "landmines",
     title: {
       en: "Vostok",
       pl: "Vostok",
@@ -2048,7 +2048,7 @@ export const BOOKS = [
   {
     id: "nocturine-audio",
     excerptId: null,
-    theme: "nocturine",
+    theme: "cetacean",
     title: {
       en: "Nocturine",
       pl: "Nocturine",

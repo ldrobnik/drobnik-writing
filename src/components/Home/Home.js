@@ -117,6 +117,18 @@ export const Home = (props) => {
               component={() => <BookPage book={2} />}
               key="nocturine"
             />
+            <Route
+              path="/vostok-audio/"
+              exact
+              component={() => <BookPage book={3} />}
+              key="nocturine"
+            />
+            <Route
+              path="/nocturine-audio/"
+              exact
+              component={() => <BookPage book={4} />}
+              key="nocturine"
+            />
             {/*<Route path="/nocturine/" exact component={() => {*/}
             {/*    window.location.href = NOCTURINE_URL;*/}
             {/*    return null;*/}
