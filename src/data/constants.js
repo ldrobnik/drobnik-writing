@@ -26,6 +26,8 @@ const vostokCover = "vostokCover.jpg";
 const vostokCoverColor = "vostokCoverColor.jpg";
 const riverineCover = "riverineCover.jpg";
 const riverineCoverColor = "riverineCoverColor.jpg";
+const nocturineAudioCover = "nocturineAudioCover.jpg";
+const vostokAudioCover = "vostokAudioCover.jpg";
 // const tbaCover = "tbaCover.jpg";
 
 //Frequently used URLs
@@ -40,6 +42,10 @@ export const RIVERINE_URL =
   "https://vegetarianalcoholicpress.com/titles/ukasz-drobnik-riverine"; // Riverine order
 export const RIVERINE_LOCAL_URL = "https://drobnik.co/riverine";
 export const VAPRESS_URL = "http://vapoetry.com/"; //VA Press website
+export const NOCTURINE_AUDIO_URL =
+  "https://www.bookbeat.com/pl/book/nocturine-1709978";
+export const VOSTOK_AUDIO_URL =
+  "https://www.bookbeat.com/pl/book/vostok-1705941";
 export const BLUESKY_URL = "https://bsky.app/profile/drobnik.co";
 export const TWITTER_URL = "https://twitter.com/drobnik";
 export const FACEBOOK_URL = "https://www.facebook.com/drobnikwrites";
@@ -792,6 +798,32 @@ export const PUBLICATIONS = {
       ),
       descriptionEn: <>Novella forthcoming in 2025 from Alien Buddha Press</>,
       language: "en",
+    },
+    {
+      title: "Nocturine",
+      year: "2025",
+      url: NOCTURINE_AUDIO_URL,
+      cover: nocturineAudioCover,
+      altText: {
+        en: "Nocturine cover",
+        pl: "Okładka Nocturine",
+      },
+      descriptionPl: <>Audiobook wydany przez KMH Media Group</>,
+      descriptionEn: <>Audiobook in Polish published by KMH Media Group</>,
+      language: "pl",
+    },
+    {
+      title: "Vostok",
+      year: "2025",
+      url: VOSTOK_AUDIO_URL,
+      cover: vostokAudioCover,
+      altText: {
+        en: "Vostok cover",
+        pl: "Okładka Vostok",
+      },
+      descriptionPl: <>Audiobook wydany przez KMH Media Group</>,
+      descriptionEn: <>Audiobook in Polish published by KMH Media Group</>,
+      language: "pl",
     },
     {
       title: "Riverine",
