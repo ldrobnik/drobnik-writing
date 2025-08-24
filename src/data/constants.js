@@ -2392,7 +2392,7 @@ export const WEBSITE_TEXT_ABOUT = {
           <p>
             Łukasz Drobnik is a Polish fiction writer writing mostly in English,
             author of experimental speculative fiction. The experiments include
-            apocalyptic fantasy in breathless paragraphs (novella{" "}
+            surreal apocalyptic fantasy in breathless paragraphs (novella{" "}
             <AnchorLink href="#nocturine" offset="60px">
               <strong>NOCTURINE</strong>
             </AnchorLink>
@@ -2430,8 +2430,8 @@ export const WEBSITE_TEXT_ABOUT = {
         <div>
           <p>
             Łukasz Drobnik to polski prozaik piszący głównie po angielsku, autor
-            eksperymentalnej fantastyki. Eksperymenty te to m.in. apokaliptyczna
-            fantasy z&nbsp;literackim zacięciem (minipowieść{" "}
+            eksperymentalnej fantastyki. Eksperymenty te to m.in. surrealne
+            apokaliptyczne fantasy z&nbsp;literackim zacięciem (minipowieść{" "}
             <AnchorLink href="#nocturine-audio" offset="60px">
               <strong>NOCTURINE</strong>
             </AnchorLink>
@@ -2440,14 +2440,14 @@ export const WEBSITE_TEXT_ABOUT = {
             <AnchorLink href="#vostok-audio" offset="60px">
               <strong>VOSTOK</strong>
             </AnchorLink>
-            ) czy formalnie odważna proza z elementami surrealizmu i fantastyki
-            (zbiór flash fiction <BoldText>RIVERINE</BoldText>, dostępny tylko
-            po angielsku). Publikował m.in. w&nbsp;Split Lip Magazine, HAD,
-            Fractured Lit, Atticus Review, Quarterly West, Pithead Chapel,
-            Lighthouse, Foglifter, STORGY, BULL oraz X&#8209;R&#8209;A&#8209;Y
-            Literary Magazine. Ma na koncie miejsce na longliście Wigleaf Top 50
-            Very Short Fictions i&nbsp;nominację do Pushcart Prize. Mieszka
-            w&nbsp;Krakowie.
+            ) czy formalnie odważna proza z elementami surrealizmu
+            i&nbsp;fantastyki (zbiór flash fiction <BoldText>RIVERINE</BoldText>
+            , dostępny tylko po angielsku). Publikował m.in. w&nbsp;Split Lip
+            Magazine, HAD, Fractured Lit, Atticus Review, Quarterly West,
+            Pithead Chapel, Lighthouse, Foglifter, STORGY, BULL oraz
+            X&#8209;R&#8209;A&#8209;Y Literary Magazine. Ma na koncie miejsce na
+            longliście Wigleaf Top 50 Very Short Fictions i&nbsp;nominację do
+            Pushcart Prize. Mieszka w&nbsp;Krakowie.
           </p>
           <p>
             Poniżej można znaleźć{" "}
