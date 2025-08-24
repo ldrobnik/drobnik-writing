@@ -2623,13 +2623,13 @@ export const WEBSITE_TEXT_ABOUT = {
         pl: "czytelnia",
       },
     },
-    {
-      id: "blog",
-      text: {
-        en: "blog",
-        pl: "blog",
-      },
-    },
+    // {
+    //   id: "blog",
+    //   text: {
+    //     en: "blog",
+    //     pl: "blog",
+    //   },
+    // },
   ],
 };
 
