@@ -28,7 +28,11 @@ const vostokAudioCover = "vostokAudioCover.jpg";
 // const tbaCover = "tbaCover.jpg";
 
 //Frequently used URLs
-export const NOCTURINE_URL = "http://alienbuddhapress.wordpress.com/"; //Nocturine pre-order
+export const NOCTURINE_URL =
+  "https://amazon.com/NOCTURINE-%C5%81ukasz-Drobnik/dp/B0FL14CQPN"; //Nocturine pre-order
+export const NOCTURINE_EXCERPT_URL =
+  "https://alienbuddhapress.wordpress.com/2025/09/02/spotlight-nocturine-by-lukasz-drobnik/"; // Nocturine excerpt
+export const ALIEN_BUDDHA_URL = "https://alienbuddhapress.wordpress.com/";
 export const NOCTURINE_LOCAL_URL = "https://drobnik.co/nocturine";
 export const NOCTURINE_AUDIO_LOCAL_URL = "https://drobnik.co/nocturine-audio";
 // export const VOSTOK_URL = "https://mybook.to/vostok-paper"; // buy Vostok
@@ -781,20 +785,15 @@ export const PUBLICATIONS = {
   books: [
     {
       title: "Nocturine",
-      year: "",
-      url: NOCTURINE_LOCAL_URL,
+      year: "2025",
+      url: NOCTURINE_URL,
       cover: nocturineCover,
       altText: {
         en: "Nocturine cover",
         pl: "Okładka Nocturine",
       },
-      descriptionPl: (
-        <>
-          Minipowieść, która ukaże się w 2025 r. nakładem wydawnictwa Alien
-          Buddha Press
-        </>
-      ),
-      descriptionEn: <>Novella forthcoming in 2025 from Alien Buddha Press</>,
+      descriptionPl: <>Minipowieść wydana przez Alien Buddha Press</>,
+      descriptionEn: <>Novella published by Alien Buddha Press</>,
       language: "en",
     },
     {
@@ -832,15 +831,8 @@ export const PUBLICATIONS = {
         en: "Riverine cover",
         pl: "Okładka Riverine",
       },
-      descriptionPl: (
-        <>
-          Zbiór flash fiction, który ukazał się w 2023 r. nakładem wydawnictwa
-          VA&nbsp;Press
-        </>
-      ),
-      descriptionEn: (
-        <>Flash fiction collection published in 2023 by VA&nbsp;Press</>
-      ),
+      descriptionPl: <>Zbiór flash fiction wydany przez VA&nbsp;Press</>,
+      descriptionEn: <>Flash fiction collection published by VA&nbsp;Press</>,
       language: "en",
     },
     {
@@ -852,7 +844,7 @@ export const PUBLICATIONS = {
         en: "Vostok cover",
         pl: "Okładka Vostok",
       },
-      descriptionPl: <>Powieść wydana nakładem wydawnictwa Vraeyda Literary</>,
+      descriptionPl: <>Powieść wydana przez Vraeyda Literary</>,
       descriptionEn: <>Novel published by Vraeyda Literary</>,
       language: "en",
     },
@@ -1630,24 +1622,8 @@ export const BOOKS = [
       ),
     },
     orderDetails: {
-      en: (
-        <p>
-          You can buy <em>RIVERINE</em> in a{" "}
-          <a href={RIVERINE_URL} target="_blank" rel="noopener noreferrer">
-            <strong>PAPER</strong>
-          </a>{" "}
-          format.
-        </p>
-      ),
-      pl: (
-        <p>
-          <em>RIVERINE</em> można kupić w&nbsp;formacie{" "}
-          <a href={RIVERINE_URL} target="_blank" rel="noopener noreferrer">
-            <strong>PAPIEROWYM</strong>
-          </a>
-          .
-        </p>
-      ),
+      en: null,
+      pl: null,
     },
     quotes: {
       en: [
@@ -1718,7 +1694,7 @@ export const BOOKS = [
   },
   {
     id: "nocturine",
-    excerptId: null,
+    excerptId: NOCTURINE_EXCERPT_URL,
     theme: "nocturine",
     title: {
       en: "Nocturine",
@@ -1733,25 +1709,24 @@ export const BOOKS = [
     slogan: {
       en: (
         <div>
-          Novella forthcoming in September 2025 from{" "}
-          <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
+          Novella published in 2025 by{" "}
+          <a href={ALIEN_BUDDHA_URL} target="_blank" rel="noopener noreferrer">
             <strong>ALIEN BUDDHA PRESS</strong>
           </a>
         </div>
       ),
       pl: (
         <div>
-          Minipowieść, która ukaże się we wrześniu 2025&nbsp;r. nakładem
-          wydawcnitwa{" "}
-          <a href={NOCTURINE_URL} target="_blank" rel="noopener noreferrer">
+          Minipowieść wydana w&nbsp;2025&nbsp;r. przez{" "}
+          <a href={ALIEN_BUDDHA_URL} target="_blank" rel="noopener noreferrer">
             <strong>ALIEN BUDDHA PRESS</strong>
           </a>
         </div>
       ),
     },
     orderButton: {
-      en: null,
-      pl: null,
+      en: ORDER_BUTTON["order"]["en"],
+      pl: ORDER_BUTTON["order"]["pl"],
     },
     shopList: null,
     body: {
@@ -2391,8 +2366,9 @@ export const WEBSITE_TEXT_ABOUT = {
         <div>
           <p>
             Łukasz Drobnik is a Polish fiction writer writing mostly in English,
-            author of experimental speculative fiction. The experiments include
-            surreal apocalyptic fantasy in breathless paragraphs (novella{" "}
+            author of experimental speculative and literary fiction. The
+            experiments include surreal apocalyptic fantasy in breathless
+            paragraphs (novella{" "}
             <AnchorLink href="#nocturine" offset="60px">
               <strong>NOCTURINE</strong>
             </AnchorLink>
@@ -2430,8 +2406,9 @@ export const WEBSITE_TEXT_ABOUT = {
         <div>
           <p>
             Łukasz Drobnik to polski prozaik piszący głównie po angielsku, autor
-            eksperymentalnej fantastyki. Eksperymenty te to m.in. surrealne
-            apokaliptyczne fantasy z&nbsp;literackim zacięciem (minipowieść{" "}
+            eksperymentalnej fantastyki i&nbsp;literatury pięknej. Eksperymenty
+            te to m.in. surrealne apokaliptyczne fantasy z&nbsp;literackim
+            zacięciem (minipowieść{" "}
             <AnchorLink href="#nocturine-audio" offset="60px">
               <strong>NOCTURINE</strong>
             </AnchorLink>
@@ -2469,14 +2446,22 @@ export const WEBSITE_TEXT_ABOUT = {
     cta: {
       en: [
         {
+          message: <div>Order NOCTURINE</div>,
+          path: NOCTURINE_URL,
+        },
+        {
           message: <div>Order RIVERINE</div>,
           path: RIVERINE_URL,
         },
       ],
       pl: [
         {
-          message: <div>Zamów RIVERINE</div>,
-          path: BLYSKI_URL,
+          message: <div>Słuchaj NOCTURINE</div>,
+          path: NOCTURINE_AUDIO_URL,
+        },
+        {
+          message: <div>Słuchaj VOSTOKU</div>,
+          path: VOSTOK_AUDIO_URL,
         },
       ],
     },
@@ -2572,12 +2557,12 @@ export const WEBSITE_TEXT_ABOUT = {
     },
     chooseLanguage: {
       en: {
-        label: "Display pieces written in:",
+        label: "Display pieces published in:",
         english: "English",
         polish: "Polish",
       },
       pl: {
-        label: "Wyświetl teksty napisane po:",
+        label: "Wyświetl teksty wydane po:",
         english: "angielsku",
         polish: "polsku",
       },
@@ -2956,6 +2941,16 @@ export const LINKS = [
     title: "Bluesky",
     subtitle: "@drobnik.co",
     url: BLUESKY_URL,
+  },
+  {
+    title: "Order NOCTURINE",
+    subtitle: "from Amazon",
+    url: NOCTURINE_URL,
+  },
+  {
+    title: "NOCTURINE excerpt",
+    subtitle: "courtesy of Alien Buddha Press",
+    url: NOCTURINE_EXCERPT_URL,
   },
   {
     title: "Order RIVERINE",
