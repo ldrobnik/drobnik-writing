@@ -1578,8 +1578,8 @@ export const BOOKS = [
     shopList: [
       {
         name: {
-          en: <React.Fragment>PAPER</React.Fragment>,
-          pl: <React.Fragment>PAPIER</React.Fragment>,
+          en: <React.Fragment>PAPERBACK</React.Fragment>,
+          pl: <React.Fragment>OPRAWA MIĘKKA</React.Fragment>,
         },
         url: RIVERINE_URL,
       },
@@ -1728,7 +1728,15 @@ export const BOOKS = [
       en: ORDER_BUTTON["order"]["en"],
       pl: ORDER_BUTTON["order"]["pl"],
     },
-    shopList: null,
+    shopList: [
+      {
+        name: {
+          en: <React.Fragment>PAPERBACK</React.Fragment>,
+          pl: <React.Fragment>OPRAWA MIĘKKA</React.Fragment>,
+        },
+        url: NOCTURINE_URL,
+      },
+    ],
     body: {
       en: (
         <div>
