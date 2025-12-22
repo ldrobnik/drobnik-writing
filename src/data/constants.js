@@ -867,6 +867,15 @@ export const PUBLICATIONS = {
 
   press: [
     {
+      title: "Alien Buddha Zine",
+      issue: "81",
+      year: "2025",
+      url: "https://www.amazon.com/Alien-Buddha-Zine-81-black/dp/B0G43QN23J/ref=sr_1_1?crid=18CU9SU4HIEET&dib=eyJ2IjoiMSJ9.MPGUJmKeaiZQqh--bflP-f5vG03yp28x6CYYbsLJJaDGjHj071QN20LucGBJIEps.nmQ69rTkUufQQN5pO2rrvv3c9UFtaLHln3R4ylx0Z-Y&dib_tag=se&keywords=alien+buddha+zine+81&qid=1766392385&sprefix=alien+buddha+zine+8%2Caps%2C267&sr=8-1",
+      descriptionPl: "Fragment minipowieści „Nocturine”",
+      descriptionEn: "Excerpt from the novella “Nocturine”",
+      language: "en",
+    },
+    {
       title: "e-eleWator",
       issue: "3",
       year: "2023",
@@ -1018,9 +1027,8 @@ export const PUBLICATIONS = {
       issue: "#1/(#5)",
       year: "2018",
       url: "http://fathombooks.org/html/issueone.html",
-      descriptionPl: "„8-bit Dreams” (opowiadanie ze zbioru „Nocturine”)",
-      descriptionEn:
-        "“8-bit Dreams” (a short story from the collection “Nocturine”)",
+      descriptionPl: "„8-bit Dreams” (rozdział minipowieści „Nocturine”)",
+      descriptionEn: "“8-bit Dreams” (a chapter of the novella “Nocturine”)",
       language: "en",
     },
     {
@@ -1140,9 +1148,9 @@ export const PUBLICATIONS = {
       issue: "February 2018",
       year: "2018",
       url: "https://thewritelaunch.com/2018/01/heart-mighty-power/",
-      descriptionPl: "„Heart Mighty Power” (opowiadanie ze zbioru „Nocturine”)",
+      descriptionPl: "„Heart Mighty Power” (rozdział minipowieści „Nocturine”)",
       descriptionEn:
-        "“Heart Mighty Power” (a short story from the collection “Nocturine”)",
+        "“Heart Mighty Power” (a chapter of the novella “Nocturine”)",
       language: "en",
     },
     {
@@ -1205,8 +1213,8 @@ export const PUBLICATIONS = {
       issue: "#9",
       year: "2011",
       url: "http://nagrodaliterackagdynia.pl/sites/default/files/upload/dodatek-nr-9.pdf",
-      descriptionPl: "Wyjątek ze zbioru „Nocturine”",
-      descriptionEn: "Excerpt from the collection “Nocturine”",
+      descriptionPl: "Fragment minipowieści „Nocturine”",
+      descriptionEn: "Excerpt from the novella “Nocturine”",
       language: "pl",
     },
     {
@@ -1214,8 +1222,8 @@ export const PUBLICATIONS = {
       issue: "#57",
       year: "2011",
       url: "https://www.dwutygodnik.com/artykul/2252-nocturine-fragment-powiesci.html",
-      descriptionPl: "Wyjątek ze zbioru „Nocturine”",
-      descriptionEn: "Excerpt from the collection “Nocturine”",
+      descriptionPl: "Fragment minipowieści „Nocturine”",
+      descriptionEn: "Excerpt from the novella “Nocturine”",
       language: "pl",
     },
     {
@@ -1223,8 +1231,8 @@ export const PUBLICATIONS = {
       issue: "1–2 (11–12) 2009/1 (13) 2010",
       year: "2009/2010",
       url: "http://www.latarnia-morska.eu/pl/proza/513-nocturine",
-      descriptionPl: "Wyjątek ze zbioru „Nocturine”",
-      descriptionEn: "Excerpt from the collection “Nocturine”",
+      descriptionPl: "Fragment minipowieści „Nocturine”",
+      descriptionEn: "Excerpt from the novella “Nocturine”",
       language: "pl",
     },
     {
@@ -1257,6 +1265,15 @@ export const PUBLICATIONS = {
   ],
 
   collections: [
+    {
+      title: "The Alien Buddha’s Best of 2025",
+      issue: "",
+      year: "2025",
+      url: "https://www.amazon.com/Alien-Buddhas-Best-2025-black/dp/B0G7HGCTHD/ref=sr_1_2?crid=2K9VM0IRMG5WF&dib=eyJ2IjoiMSJ9.X0W4M4F85mcfoUrcdAdL2r-pZZl2aRg1rIY-DE20lhDGjHj071QN20LucGBJIEps.6THvk_-snXJthPE_rK8H82cpITrqij8Xc3sL2YySxpk&dib_tag=se&keywords=best+of+alien+buddha+2025&qid=1766392768&sprefix=best+of+alien+buddha+202%2Caps%2C334&sr=8-2",
+      descriptionPl: "Fragment minipowieści „Nocturine”",
+      descriptionEn: "Excerpt from the novella “Nocturine”",
+      language: "en",
+    },
     {
       title: "Get Bent",
       issue: "",
