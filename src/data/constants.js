@@ -2971,6 +2971,16 @@ export const LINKS = [
     url: NOCTURINE_EXCERPT_URL,
   },
   {
+    title: "The Alien Buddha’s Best of 2025",
+    subtitle: "with an excerpt from NOCTURINE",
+    url: "https://www.amazon.com/Alien-Buddhas-Best-2025-black/dp/B0G7HGCTHD/ref=sr_1_2?crid=2K9VM0IRMG5WF&dib=eyJ2IjoiMSJ9.X0W4M4F85mcfoUrcdAdL2r-pZZl2aRg1rIY-DE20lhDGjHj071QN20LucGBJIEps.6THvk_-snXJthPE_rK8H82cpITrqij8Xc3sL2YySxpk&dib_tag=se&keywords=best+of+alien+buddha+2025&qid=1766392768&sprefix=best+of+alien+buddha+202%2Caps%2C334&sr=8-2",
+  },
+  {
+    title: "Alien Buddha Zine #81",
+    subtitle: "with an excerpt from NOCTURINE",
+    url: "https://www.amazon.com/Alien-Buddha-Zine-81-black/dp/B0G43QN23J/ref=sr_1_1?crid=18CU9SU4HIEET&dib=eyJ2IjoiMSJ9.MPGUJmKeaiZQqh--bflP-f5vG03yp28x6CYYbsLJJaDGjHj071QN20LucGBJIEps.nmQ69rTkUufQQN5pO2rrvv3c9UFtaLHln3R4ylx0Z-Y&dib_tag=se&keywords=alien+buddha+zine+81&qid=1766392385&sprefix=alien+buddha+zine+8%2Caps%2C267&sr=8-1",
+  },
+  {
     title: "Order RIVERINE",
     subtitle: "from VA Press",
     url: RIVERINE_URL,
