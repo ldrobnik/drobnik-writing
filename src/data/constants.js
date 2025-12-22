@@ -2373,26 +2373,23 @@ export const WEBSITE_TEXT_ABOUT = {
       en: (
         <div>
           <p>
-            Łukasz Drobnik is a Polish fiction writer writing mostly in English,
-            author of experimental speculative and literary fiction. The
-            experiments include surreal apocalyptic fantasy in breathless
-            paragraphs (novella{" "}
+            Łukasz Drobnik is a Polish fiction writer creating mostly in
+            English, author of speculative fiction with a literary bent,
+            including the novella{" "}
             <AnchorLink href="#nocturine" offset="60px">
               <strong>NOCTURINE</strong>
             </AnchorLink>
-            ), formally daring literary fiction with surreal and speculative
-            elements (flash fiction collection{" "}
+            , flash fiction collection{" "}
             <AnchorLink href="#riverine" offset="60px">
               <strong>RIVERINE</strong>
             </AnchorLink>
-            ), and science fiction hiding under the veneer of a realistic murder
-            story (novel <BoldText>VOSTOK</BoldText>, out of print). His words
-            were featured in Split Lip Magazine, HAD, Fractured Lit, Atticus
-            Review, Quarterly West, Pithead Chapel, Lighthouse, STORGY, BULL,
-            Foglifter, X&#8209;R&#8209;A&#8209;Y Literary Magazine, and
-            elsewhere. His writing was longlisted for the Wigleaf Top 50 Very
-            Short Fictions and nominated for the Pushcart Prize. He lives in
-            Kraków, Poland.
+            , and novel <BoldText>VOSTOK</BoldText> (out of print). His words
+            were featured in Split Lip Magazine, Foglifter, HAD, Fractured Lit,
+            Atticus Review, Quarterly West, Pithead Chapel, Lighthouse, STORGY,
+            BULL, X&#8209;R&#8209;A&#8209;Y Literary Magazine, and elsewhere.
+            His writing was longlisted for the Wigleaf Top 50 Very Short
+            Fictions and nominated for the Pushcart Prize. He lives in Kraków,
+            Poland.
           </p>
           <p>
             Below you can find a{" "}
@@ -2414,22 +2411,18 @@ export const WEBSITE_TEXT_ABOUT = {
         <div>
           <p>
             Łukasz Drobnik to polski prozaik piszący głównie po angielsku, autor
-            eksperymentalnej fantastyki i&nbsp;literatury pięknej. Eksperymenty
-            te to m.in. surrealne apokaliptyczne fantasy z&nbsp;literackim
-            zacięciem (minipowieść{" "}
+            fantastyki z&nbsp;literackim zacięciem, w&nbsp;tym minipowieści{" "}
             <AnchorLink href="#nocturine-audio" offset="60px">
               <strong>NOCTURINE</strong>
             </AnchorLink>
-            ), science fiction ukryte za fasadą realistycznego kryminału
-            (powieść{" "}
+            , powieści{" "}
             <AnchorLink href="#vostok-audio" offset="60px">
               <strong>VOSTOK</strong>
-            </AnchorLink>
-            ) czy formalnie odważna proza z elementami surrealizmu
-            i&nbsp;fantastyki (zbiór flash fiction <BoldText>RIVERINE</BoldText>
-            , dostępny tylko po angielsku). Publikował m.in. w&nbsp;Split Lip
-            Magazine, HAD, Fractured Lit, Atticus Review, Quarterly West,
-            Pithead Chapel, Lighthouse, Foglifter, STORGY, BULL oraz
+            </AnchorLink>{" "}
+            i&nbsp;zbioru flash fiction <BoldText>RIVERINE</BoldText> (dostępny
+            tylko po angielsku). Publikował m.in. w&nbsp;Split Lip Magazine,
+            Foglifter, HAD, Fractured Lit, Atticus Review, Quarterly West,
+            Pithead Chapel, Lighthouse, STORGY, BULL oraz
             X&#8209;R&#8209;A&#8209;Y Literary Magazine. Ma na koncie miejsce na
             longliście Wigleaf Top 50 Very Short Fictions i&nbsp;nominację do
             Pushcart Prize. Mieszka w&nbsp;Krakowie.
