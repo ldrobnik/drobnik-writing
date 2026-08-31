@@ -867,6 +867,15 @@ export const PUBLICATIONS = {
 
   press: [
     {
+      title: "Cartridge Lit",
+      issue: "",
+      year: "2026",
+      url: "https://cartridgelit.com/2026/08/31/death-howl/",
+      descriptionPl: "Flash fiction „Death Howl”",
+      descriptionEn: "Flash fiction “Death Howl”",
+      language: "en",
+    },
+    {
       title: "Alien Buddha Zine",
       issue: "81",
       year: "2025",
@@ -2959,6 +2968,11 @@ export const LINKS = [
     title: "Bluesky",
     subtitle: "@drobnik.co",
     url: BLUESKY_URL,
+  },
+  {
+    title: "Read “Death Howl”",
+    subtitle: "in Cartridge Lit",
+    url: "https://cartridgelit.com/2026/08/31/death-howl/",
   },
   {
     title: "Order NOCTURINE",
